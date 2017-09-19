@@ -1,0 +1,38 @@
+1.	Tekstowe
+
+	COINCAT(pole1, pole2, pole3) -> "pole1pole2pole3"
+	łączy znaki z pul
+
+	CONCAT_WS(" ",pole1, pole2, pole3) -> "pole1 pole2 pole3"
+	łączy znaki z pul rozdzielając znakiem (w tym przypadku spacja)
+
+	LOWER("aBcD") -> "abcd"
+	UPPER("aBcD") -> "ABCD"
+
+	LEFT(Rekord, ile) / RIGHT(Rekord, ile)
+	z rekordu bierze podaną ilość znaków z lewej/prawej strony
+
+	TRIM(" Usuwa spacjje z krawędzi ") -> "Usuwa spacjje z krawędzi"
+
+	INSTR("ABCD", "C") -> 3
+
+	REPLACE("ABCD", "C", "J") -> "ABJD"
+
+	REVERSE("ABCD") -> "DCBA"
+
+	SUBSTRING("ABCDEFGH", 3, 2) -> "CD"
+	Od trzeciego znaku bierze wypisuje 2 znaki
+
+	LENGTH("ABCD") -> 4
+
+
+
+2.	Liczbowe
+
+
+
+3.	Data i czas
+
+
+
+4.	Szyfry
