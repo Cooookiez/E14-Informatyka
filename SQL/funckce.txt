@@ -31,7 +31,23 @@
 
 
 
+
 3.	Data i czas
+	CURDATE() - aktualny data (rrrr-mm-dd)
+	CURTIME() - aktualny czas (hh:mm:ss)
+	NOW() - aktualan data i czas (rrrr-mm-dd hh:mm:ss)
+
+	DAYOFWEEK("2017-09-19") -> 3 (1=Niedziela, 2=Poniedziałek, 3=Wtore, ..., 7=Sobota)
+	DAYOFMONTH("2017-09-19") -> 19
+	DAYOFYEAR("2017-09-19") -> 262
+	YEAR("2017-09-19") -> 2017
+	MONTH("2017-09-19") -> 9
+	DAY("2017-09-19") -> 19
+	HOUR("21:37:16") -> 21
+	MINUTE("21:37:16") -> 37
+	SECOND("21:37:16") -> 16
+
+	Mozliwe łączenie np DAYOFWEEK(NOW())
 
 
 
