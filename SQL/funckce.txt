@@ -28,7 +28,15 @@
 
 
 2.	Liczbowe
-
+	ROUND("123.456", 2) -> 123.46
+	ROUND("123.456", -2) -> 100
+	ABS(2) -> 2
+	ABS(+2) -> 2
+	ABS(-2) -> 2
+	POW(2, 3) -> 8 (2^3)
+	POW(4, (1/2)) -> 2	(4^(1/2))
+	SQRT(4) -> 2	Pierwiastek TYLKO z dwóch
+	MOD(7,2) -> 1	Reszta z dzielenia
 
 
 
