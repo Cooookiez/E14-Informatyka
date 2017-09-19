@@ -15,7 +15,7 @@
 * C++
     * [Tablice](C++/tablice.cpp)
     * [Pentle](C++/pentle.cpp)
-    * [Losowanie](C++/losowanie liczb.cpp)
+    * [Losowanie](C++/losowanie-liczb.cpp)
 * SQL
     * [Podstawowe funkcje](SQL/funkcje.txt)
-    * [Przykładowe zapytania](SQL/przykładowe_zapytania.sql)
+    * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
