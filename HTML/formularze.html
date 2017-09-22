@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="kkukiz">
+    <meta name="Keywords" content="Słowa klucze">
+    <meta name="Description" content="Opis strony">
+    <title>Tytuł</title>
+    <style>
+        form{
+            width: 800px;
+            /*background-color: #ddd;*/
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="?op=submited" method="POST">
+
+        <fieldset>
+            <legend>Wpisywane</legend>
+            <div>
+                <!--
+                    Znacznik for odwołuje się do id innego elementu (input)
+                    Wartosc znacznika name (input) będzie widoczny w php
+                -->
+                <label for="text1">text</label><!-- znacznik for odwołuje się do id input'a -->
+                <input type="text" id="text1" name="text2" placeholder="Witaj świecie">
+            </div>
+            <div>
+                <label for="password1">password</label>
+                <input type="password" id="password1" name="password2" required placeholder="hasło: okoń">
+            </div>
+            <div>
+                <label for="textarea1">textarea</label>
+                <textarea id="textarea1" name="textarea" cols="30" rows="10" placeholder="2137"></textarea>
+            </div>
+            <div>
+                <label for="number1">number</label>
+                <input type="number" id="number1" name="number2" min="5" max="25" value="15">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Zaznaczane</legend>
+            <!-- cięgi for w znaczniku label można nacisnąć na text, po czym zareaguje input tak jak byśmy klikali na input -->
+            <h4>Radio</h4>
+            <div>
+                <input type="radio" name="plec" id="plec_f" required>
+                <label for="plec_f">Kobieta</label>
+            </div>
+            <div>
+                <input type="radio" name="plec" id="plec_m" required checked>
+                <label for="plec_m">Mężczyzna</label>
+            </div>
+            <div>
+                <input type="radio" name="plec" id="plec_i" required>
+                <label for="plec_i">Istnieją tylko 2 płci</label>
+            </div>
+            <h4>checkbox</h4>
+            <div>
+                <input type="checkbox" name="jd" id="jd-jd" checked>
+                <label for="jd-jd">JD</label>
+            </div>
+            <div>
+                <input type="checkbox" name="jd" id="jd-104">
+                <label for="jd-104">104</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Rozwijane</legend>
+            <div>
+                <label for="jezyk">jojo</label>
+                <select name="jezyk" id="jezyk">
+                        <option value="none">Wybierz coś</option>
+                        <option value="pl">Janusz aka grażyna</option>
+                        <option value="jp">Kraj kwitnącej wiśni</option>
+                        <option value="gr">Święto piwa</option>
+                        <option value="uk">London eye</option>
+                        <option value="fr">6 biegów w tym jeden do przodu</option>
+                </select>
+            </div>
+            <div>
+                <label for="imiona">Imiona</label>
+                <select name="imiona" id="imiona">
+                    <option value="none">Wybierz coś</option>
+                    <optgroup label="Damskie">
+                            <option value="Grażyna">Grażyna</option>
+                            <option value="Karyna">Karyna</option>
+                            <option value="Dżesika">Dżesika</option>
+                    </optgroup>
+                    <optgroup label="Męskie">
+                            <option value="Janusz">Janusz</option>
+                            <option value="Seba">Seba</option>
+                            <option value="Brajanek">Brajanek</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="textDataList">Text Data List</label>
+                <input type="text" id="textDataList" list="punkty" placeholder="1.1.1">
+                <datalist id="punkty">
+                        <option value="1.1.1">
+                        <option value="1.1.2">
+                        <option value="1.2.1">
+                        <option value="1.2.2">
+                        <option value="2.1.1">
+                        <option value="2.1.2">
+                </datalist>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Klikane</legend>
+            <input type="submit" value="SAVE">
+            <input type="reset" value="Czyść">
+        </fieldset>
+
+    </form>
+</body>
+</html>

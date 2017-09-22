@@ -2,6 +2,22 @@
 
 Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q)
 
+
+## Już jest
+* C++
+    * [Tablice](C++/tablice.cpp)
+    * [Menu](C++/menu.cpp)
+    * [Pentle](C++/pentle.cpp)
+    * [Losowanie](C++/losowanie-liczb.cpp)
+    * [Tworzenie funkcji](c++/tworzenie-funkcji.cpp)
+* HTML + CSS
+    * [Formularze](HTML/formularze.html)
+    * [Podstawowy pusty plik](HTML/podstawowyPustyPlik.html)
+* SQL
+    * [Podstawowe funkcje](SQL/funkcje.txt)
+    * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
+
+
 ## Do zrobinie
 * Zadania ogulne
     * [ ] przenieść ętle z C++ do Skrypty ogulne [i zmienić rozszeżenie?]
@@ -19,9 +35,10 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [x] Losowanie
     * [x] Tworzenie funkcji
 * HTML + CSS
-    * [ ] Podstawowy pusty plik
+    * [x] Podstawowy pusty plik
     * [ ] Podstawowy znaczniki
     * [ ] Formularze
+    * [ ] audio / video
 * JavaScript + jQuery
     * [ ] js Podstawy
     * [ ] jQ Cookies
@@ -38,17 +55,3 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] Łączenie sięz innymi tabelami
     * [x] Podstawowe funkcje
     * [x] Przykładowe zapytania
-
-
-## Już jest
-* C++
-    * [Tablice](C++/tablice.cpp)
-    * [Menu](C++/menu.cpp)
-    * [Pentle](C++/pentle.cpp)
-    * [Losowanie](C++/losowanie-liczb.cpp)
-    * [Tworzenie funkcji](c++/tworzenie-funkcji.cpp)
-* HTML + CSS
-    * [Podstawowy pusty plik](HTML/podstawowyPustyPlik.html)
-* SQL
-    * [Podstawowe funkcje](SQL/funkcje.txt)
-    * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
