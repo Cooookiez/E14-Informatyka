@@ -37,7 +37,7 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 * HTML + CSS
     * [x] Podstawowy pusty plik
     * [ ] Podstawowy znaczniki
-    * [ ] Formularze
+    * [x] Formularze
     * [ ] audio / video
 * JavaScript + jQuery
     * [ ] js Podstawy
