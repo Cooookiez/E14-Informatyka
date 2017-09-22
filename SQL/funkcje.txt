@@ -62,4 +62,4 @@
 4.	Szyfry
 	ENCODE() - szyfruje
 	DECODE() - odszyfrowuje to co wyżej
-	SHA1() / PASSWORD() - szyfrujje bez możliwości odszyfrowania (miłek dał by rade)
+	SHA1() / PASSWORD() - szyfrujje bez możliwości odszyfrowania

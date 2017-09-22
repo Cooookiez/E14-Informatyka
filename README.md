@@ -3,6 +3,8 @@
 Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q)
 
 ## Do zrobinie
+* Zadania ogulne
+    * [ ] przenieść ętle z C++ do Skrypty ogulne [i zmienić rozszeżenie?]
 * Skryp ogólne
     * sortowania
         * [ ] Bąbelkowe
@@ -11,8 +13,14 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 * C++
     * [ ] Typy zmiennych (int, string, bool, ...) i ich wartosci bitowe
     * [ ] operacje na plikach
+    * [x] Tablice
+    * [x] Menu
+    * [x] Pentle
+    * [x] Losowanie
+    * [x] Tworzenie funkcji
 * HTML + CSS
-    * [ ] Podstawowy wzór
+    * [ ] Podstawowy pusty plik
+    * [ ] Podstawowy znaczniki
     * [ ] Formularze
 * JavaScript + jQuery
     * [ ] js Podstawy
@@ -28,6 +36,8 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] Jak robić wszystko z konsoli
     * [ ] Podstawy
     * [ ] Łączenie sięz innymi tabelami
+    * [x] Podstawowe funkcje
+    * [x] Przykładowe zapytania
 
 
 ## Już jest
@@ -37,6 +47,8 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Pentle](C++/pentle.cpp)
     * [Losowanie](C++/losowanie-liczb.cpp)
     * [Tworzenie funkcji](c++/tworzenie-funkcji.cpp)
+* HTML + CSS
+    * [Podstawowy pusty plik](HTML/podstawowyPustyPlik.html)
 * SQL
     * [Podstawowe funkcje](SQL/funkcje.txt)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
