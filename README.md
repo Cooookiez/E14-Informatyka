@@ -2,12 +2,12 @@
 
 Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q)
 
+### Jeśli czegoś nie ma, a chce się szukiać to w [Zeczy Z Maksika By Kukiz](ZeczyZMaksikaByKukiz).
 
 ## Już jest
 * C++
     * [Losowanie](C++/losowanie-liczb.cpp)
-    * [Menu](C++/menu.cpp)
-    * [Pentle](C++/pentle.cpp)
+    * [Menu](C++/Menu.cpp)
     * [Tablice](C++/tablice.cpp)
     * [Tworzenie funkcji](C++/tworzenie-funkcji.cpp)
 * HTML + CSS

@@ -1,0 +1,135 @@
+body{
+	color: lightgrey;
+	background: {
+		color: #0b1117;
+		image: url('ep_naturalblack.png');
+	}
+	$box-w: 1000px;
+	$box-h: 700px;
+	$head-nav-h: 50px;
+	$head-w: 88%;
+	$rgba: lightgrey;
+//	$rgba: rgba(255,255,255,.35);
+	#box{
+		position: fixed;
+		width: $box-w;
+		height: $box-h;
+		top: calc(100%/2 - #{$box-h}/2);
+		left: calc(100%/2 - #{$box-w}/2);
+		&>nav{
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: $head-nav-h;
+			width: 100%;
+			z-index: 999;
+			&>span{
+				position: absolute;
+				width: $head-nav-h;
+				height: $head-nav-h;/*
+				background-color: $rgba;
+				color: black;*/
+				color: $rgba;
+				font-size: $head-nav-h;
+				text-align: center;
+				line-height: 110%;
+				box-sizing: border-box;
+				top: 0;
+				cursor: pointer;
+				border-radius: 15px;
+				&#prev{
+					left: 0;
+				}//#prev END
+				&#next{
+					right: 0;
+				}//#next END
+				&::before{
+					margin: 0;
+				}
+				&:hover{
+					background-color: darken($rgba, 30%);
+				}
+			}//span END
+		}//nav END
+		&>header{
+			border-radius: 15px;
+			position: absolute;
+			top: 0;
+			left: calc(100%/2 - #{$head-w}/2);
+			height: $head-nav-h;
+			width: $head-w;
+			background-color: $rgba;
+			color: black;
+			box-sizing: border-box;
+			padding: 5px 10px;
+			font-size: 34px;
+			font-weight: 900;
+		}//header END
+		&>article{
+			position: absolute;
+			width: 100%;
+			height: calc(100% - #{$head-nav-h} - 20px );
+			#video{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				font-size: 650px;
+				&>#v-bgc{
+					background-color: lightgrey;
+					position: absolute;
+					top: 120px;
+					left: 200px;
+					width: 640px;
+					height: 400px;
+					z-index: 5;
+				}
+				&>video{
+					$video-w: 600px;
+					position: absolute;
+					width: $video-w;
+					z-index: 30;
+					top: 133px + 12px;
+					left: calc(100%/2 - #{$video-w}/2 + 25px);
+					overflow: hidden;
+					border-radius: 20px;
+				}
+				&>span{
+					position: absolute;
+					z-index: 20;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+				}
+			}//#video END
+		}
+		&>footer{
+			position: absolute;
+			left: calc(50% - 40px);
+			bottom: 0;
+			z-index: 50;
+			.vv-c{
+				display: inline-block;
+				width: 18px;
+				height: 18px;
+				border-radius: 50%;
+				background-color: lightgray;
+				cursor: pointer;
+				&:hover{
+					background-color: gray;
+				}
+				&.checked{
+					box-shadow: 0 0 10px lightgray;
+					background-color: gray;
+				}
+			}
+		}//footer END
+	}//#box END
+}
+.icon-television{
+	margin: 0;
+	padding: 0;
+}//.icon-television END

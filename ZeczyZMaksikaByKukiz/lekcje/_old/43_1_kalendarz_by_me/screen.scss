@@ -1,0 +1,157 @@
+#kalendarz{
+	background-color: grey;
+	width: 400px;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+#kalendarz header{
+	width: 100%;
+	height: 40px;
+	font-weight: 900;
+}
+#kalendarz header span{
+	display: inline-block;
+	height: 100%;
+	width: 308px;
+	text-align: center;
+	line-height: 170%;
+}
+#kalendarz header #prev_month,
+#kalendarz header #next_month{
+	width: 40px;
+	box-shadow: 0 0 0 0 black;
+	cursor: pointer;
+}
+#kalendarz header #prev_month:hover,
+#kalendarz header #next_month:hover{
+	box-shadow: 0 0 10px -2px black;
+}
+#kalendarz table{
+	width: 100%;
+	border-collapse: collapse;
+}
+#kalendarz table thead{
+	box-shadow: 0 0 10px black;
+}
+#kalendarz table tbody tr{
+}
+#kalendarz table tbody tr td{
+	width: 57px;
+	height: 47px;
+	margin: 5px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+#kalendarz table tbody tr td span{
+	display: block;
+	background-color: lightgrey;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	box-shadow: 0 0 0 0 black;
+	text-align: center;
+	line-height: 170%;
+}
+#kalendarz table tbody tr td span.toDay{
+	background-color: darkgrey;
+}
+#kalendarz table tbody tr td span.check{
+	background-color: darkgrey;
+	box-shadow: inset 0 0 10px black;
+}
+#kalendarz table tbody tr td span:hover{
+	box-shadow: inset 0 0 10px black;
+}
+.note,
+#addNote{
+	margin-top: 15px;
+	background-color: grey;
+	width: 400px;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+.note header{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px 5px;
+	font-weight: 900;
+	text-align: center;
+}
+.note article{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px 5px;
+	box-shadow: inset 0 0 10px black;
+	font-size: .8em;
+}
+.is-note::before{
+	/*content: 'im hear';*/
+	content: '';
+	display: inline;
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 3px 3px 0 0;
+	float: right;
+}
+#addNote{
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+#addNote:hover{
+	box-shadow: 0 0 10px -3px black;
+}
+.blure{
+	filter: blur(5px);
+}
+#popup{
+	$pop-w: 350px;
+	$pop-h: 150px;
+	position: fixed;
+	top: calc(100%/2 - #{$pop-h}/2);
+	left: calc(100%/2 - #{$pop-w}/2);
+	height: $pop-h;
+	width: $pop-w;
+	background-color: cyyan;
+	box-sizing: border-box;
+	&>header{
+		display: block;
+		width: 100%;
+		height: 50px;
+		background-color: rgba(0,0,0,.7);
+		*{
+			display: inline;
+		}
+
+	}
+	&>article{
+		display: block;
+		width: 100%;
+		min-height: 100px;
+		background-color: green;
+		form{
+			label{
+				display: block;
+				width: 100%;
+				*{
+					box-sizing: border-box;
+					display: inli
+				}
+				span{
+					display: inline-block;
+					width: 30%;
+				}
+				input{
+					width: 70%;
+					margin: 0;
+				}
+				textarea{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

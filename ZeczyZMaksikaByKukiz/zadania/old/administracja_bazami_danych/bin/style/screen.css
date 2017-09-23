@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&subset=latin-ext");
+body {
+  background-color: darkgrey;
+  font-family: 'Roboto', sans-serif; }
+  body > header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    background-color: grey;
+    font-weight: 900;
+    font-size: 46px;
+    overflow: hidden;
+    z-index: 100;
+    box-shadow: 0 0 10px -2px black; }
+  body > nav {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: calc(100% - 70px);
+    width: 250px;
+    background-color: darkgrey;
+    overflow-x: hidden;
+    box-sizing: border-box; }
+    body > nav ul {
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0; }
+      body > nav ul > li {
+        box-sizing: border-box;
+        padding: 0;
+        width: 100%;
+        height: 50px;
+        background-color: grey;
+        z-index: 5;
+        text-align: left;
+        font-weight: 700;
+        font-size: 30px; }
+        body > nav ul > li a {
+          box-sizing: border-box;
+          display: block;
+          text-decoration: none;
+          color: black;
+          width: 100%;
+          height: 100%;
+          padding: 5px 10px; }
+        body > nav ul > li:hover {
+          background-color: #8d8d8d;
+          z-index: 10; }
+          body > nav ul > li:hover a {
+            color: #444; }
+        body > nav ul > li.checked::after {
+          content: "";
+          width: 50px;
+          height: 50px;
+          background-color: darkgrey;
+          position: relative;
+          float: right;
+          transform: rotate(45deg);
+          right: -50px;
+          top: -50px; }
+  body > main {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    width: calc(100% - 250px);
+    min-height: calc(100% - 70px);
+    margin-bottom: 50px;
+    background-color: darkgrey;
+    z-index: 50; }
+    body > main > article {
+      display: block;
+      width: 1200px;
+      background-color: darkgrey;
+      margin: 0 auto;
+      margin-top: 50px; }
+      body > main > article > header {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        padding: 10px 15px;
+        font-size: 24px;
+        font-weight: 700; }
+      body > main > article > section {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 10px 15px;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 150px; }
+        body > main > article > section table {
+          width: 100%;
+          border-collapse: collapse;
+          text-align: center; }
+          body > main > article > section table tr:nth-child(2n+0) {
+            background-color: rgba(255, 255, 255, 0.1); }
+          body > main > article > section table tr:nth-child(2n+1) {
+            background-color: rgba(255, 255, 255, 0.2); }
+          body > main > article > section table td, body > main > article > section table th {
+            border-right: 2px solid grey; }
+            body > main > article > section table td:last-child, body > main > article > section table th:last-child {
+              border: none; }
+        body > main > article > section img,
+        body > main > article > section video {
+          width: 400px; }
+
+.ta-l {
+  text-align: left !important;
+  padding: 15px; }
+
+/*# sourceMappingURL=screen.css.map */
