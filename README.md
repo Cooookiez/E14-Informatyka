@@ -42,6 +42,9 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
         * [x] Formularze
         * [ ] audio / video
     * [ ] CSS
+        * [ ] Rodzaje borderów
+        * [ ] Przesunięcia textu
+        * [ ] Cień
 * JavaScript + jQuery
     * [ ] js Podstawy
     * [ ] jQ Cookies

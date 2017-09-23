@@ -7,12 +7,43 @@
     <meta name="Description" content="Opis strony">
     <title>Tytuł</title>
     <style>
-    p{
+    p#txtTags{
         text-align: right; /* justify/center/left/right   */
+    }
+    p#longText{
+        text-align: justify;
         Line-Height: 35px;
         word-spacing: 15px;
         letter-spacing: 2px;
     }
+    table{
+        width: 400px;
+        margin: 0 auto;
+    }
+    table th,
+    table td{
+        border: 1px solid black;
+    }
+    img,
+    video{
+        width: 250px;
+        height: auto; /*heigth jest automatycznie skalowany do proporcji obrazu/filmu*/
+    }
+    /*ul.a {list-style-type: circle;}
+    ul.b {list-style-type: disc;}
+    ul.c {list-style-type: square;}
+    ol.f {list-style-type: decimal;}
+    ol.g {list-style-type: decimal-leading-zero;}
+    ol.n {list-style-type: lower-alpha;}
+    ol.o {list-style-type: lower-greek;}
+    ol.p {list-style-type: lower-latin;}
+    ol.q {list-style-type: lower-roman;}
+    ol.r {list-style-type: upper-alpha;}
+    ol.s {list-style-type: upper-greek;}
+    ol.t {list-style-type: upper-latin;}
+    ol.u {list-style-type: upper-roman;}
+    ol.v {list-style-type: none;}
+    ol.w {list-style-type: inherit;}*/
     </style>
 </head>
 <body>
@@ -23,22 +54,97 @@
     <h5>h5</h5>
     <h6>h6</h6>
     <hr>
-
-    <p>
-        p-tag: <b>Aenean commodo ligula eget dolor.</b> <br>
-        strong-tag: <strong>Aenean commodo ligula eget dolor.</strong> <br>
-        i-tag: <i>Aenean commodo ligula eget dolor.</i><br>
-        em-tag: <em>Aenean commodo ligula eget dolor.</em><br>
-        mark-tag: <mark>Aenean commodo ligula eget dolor.</mark><br>
-        small-tag: <small>Aenean commodo ligula eget dolor.</small><br>
-        ins:-tag; <ins>Aenean commodo ligula eget dolor.</ins><br>
-        sup-tag: 2<sup>4</sup><br>
-        sub-tag: H<sub>2</sub>O<br>
+    <p id="longText">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+    </p>
+    <p id="txtTags">
+        b: <b>Aenean commodo ligula eget dolor.</b> <br>
+        strong: <strong>Aenean commodo ligula eget dolor.</strong> <br>
+        i: <i>Aenean commodo ligula eget dolor.</i><br>
+        em: <em>Aenean commodo ligula eget dolor.</em><br>
+        mark: <mark>Aenean commodo ligula eget dolor.</mark><br>
+        small: <small>Aenean commodo ligula eget dolor.</small><br>
+        del: <del>Aenean commodo ligula eget dolor.</del><br>
+        ins: <ins>Aenean commodo ligula eget dolor.</ins><br>
+        sup: 2<sup>4</sup><br>
+        sub: H<sub>2</sub>O<br>
     </p>
     <hr>
 
     <img src="../src/HowOldAreYou.jpg" alt="Ten napis pojawi się gdy plik nie może się wczytać">
     <video src="../src/NobodyExpectsTheSpanishInquisition.mp4" muted controls autoplay loop></video>
+    <hr>
+
+    <!-- link zewnętrzny -->
+    <a href="https://github.com/Qkiz404/E14-Przydatne-wzory">Przydatne wzory</a><br>
+    <!-- link wewnętrzny <a href="#cos"></a> szuka i idzie do <a name="cos"></a> -->
+    <a href="#paragraf-1">wewnętrzny link</a>
+    <a name="paragraf-1"></a>
+    <hr>
+
+    <table>
+        <tr>
+            <th colspan="2">1</th>
+            <th rowspan="2">2</th>
+        </tr> 
+        <tr>
+            <th>1.1</th>
+            <th>1.2</th>
+        </tr>
+        <tr>
+            <td>o tej porze</td>
+            <td>każdy </td>
+            <td>wypić może</td>
+        </tr>
+    </table>
+    <hr>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    
+    <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <ul>
+        <li>poziom: 1
+            <ul>
+                <li>poziom: 1.1</li>
+                <li>poziom: 1.2</li>
+                <li>poziom: 1.3</li>
+            </ul>
+        </li>
+        <li>poziom: 2
+            <ul>
+                <li>poziom: 2.1</li>
+                <li>poziom: 2.2</li>
+                <li>poziom: 2.3</li>
+            </ul>
+        </li>
+        <li>poziom: 3
+            <ul>
+                <li>poziom: 3.1</li>
+                <li>poziom: 3.2</li>
+                <li>poziom: 3.3</li>
+            </ul>
+        </li>
+        <li>poziom: 4
+            <ul>
+                <li>poziom: 4.1</li>
+                <li>poziom: 4.2</li>
+                <li>poziom: 4.3</li>
+            </ul>
+        </li>
+    </ul>
     <hr>
 
 </body>
