@@ -5,14 +5,15 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 
 ## Już jest
 * C++
-    * [Tablice](C++/tablice.cpp)
+    * [Losowanie](C++/losowanie-liczb.cpp)
     * [Menu](C++/menu.cpp)
     * [Pentle](C++/pentle.cpp)
-    * [Losowanie](C++/losowanie-liczb.cpp)
-    * [Tworzenie funkcji](c++/tworzenie-funkcji.cpp)
+    * [Tablice](C++/tablice.cpp)
+    * [Tworzenie funkcji](C++/tworzenie-funkcji.cpp)
 * HTML + CSS
     * [Formularze](HTML/formularze.html)
-    * [Podstawowy pusty plik](HTML/podstawowyPustyPlik.html)
+    * [Podstawowe znaczniki](HTML/podstawowe-znaczniki.html)
+    * [Podstawowy pusty plik](HTML/podstawowy-pusty-plik.html)
 * SQL
     * [Podstawowe funkcje](SQL/funkcje.txt)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
@@ -35,10 +36,12 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [x] Losowanie
     * [x] Tworzenie funkcji
 * HTML + CSS
-    * [x] Podstawowy pusty plik
-    * [ ] Podstawowy znaczniki
-    * [x] Formularze
-    * [ ] audio / video
+    * [ ] HTML
+        * [x] Podstawowy pusty plik
+        * [ ] Podstawowy znaczniki
+        * [x] Formularze
+        * [ ] audio / video
+    * [ ] CSS
 * JavaScript + jQuery
     * [ ] js Podstawy
     * [ ] jQ Cookies
