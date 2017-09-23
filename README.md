@@ -14,27 +14,19 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Formularze](HTML/formularze.html)
     * [Podstawowe znaczniki](HTML/podstawowe-znaczniki.html)
     * [Podstawowy pusty plik](HTML/podstawowy-pusty-plik.html)
+* ScriptyOgulne
+    * [Pentle](ScriptyOgulne/pentle.php)
 * SQL
     * [Podstawowe funkcje](SQL/funkcje.txt)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
 
 ## Do zrobinie
-* Zadania ogulne
-    * [ ] przenieść ętle z C++ do Skrypty ogulne [i zmienić rozszeżenie?]
 * Skryp ogólne
     * sortowania
         * [ ] Bąbelkowe
         * [ ] Jakieś inne?
 * C#
-* C++
-    * [ ] Typy zmiennych (int, string, bool, ...) i ich wartosci bitowe
-    * [ ] operacje na plikach
-    * [x] Tablice
-    * [x] Menu
-    * [x] Pentle
-    * [x] Losowanie
-    * [x] Tworzenie funkcji
 * HTML + CSS
     * [ ] HTML
         * [x] Podstawowy pusty plik
@@ -55,6 +47,12 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] operacje na plikach
     * [ ] łączenie się z bazą danych
     * [ ] z mienne
+    * [ ] losowanie
+* Skryp ogólne
+    * [x] Pentle
+    * [ ] sortowania
+        * [ ] Bąbelkowe
+        * [ ] Jakieś inne?
 * SQL
     * [ ] Jak robić wszystko z konsoli
     * [ ] Podstawy
