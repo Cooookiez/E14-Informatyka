@@ -25,6 +25,9 @@
 		input[type=number]{
 			width: 100px;
 		}
+		a{
+			color: white;
+		}
 	</style>
 	<script src="../../../scripts/jq.js"></script>
 	<script type="text/javascript">
@@ -114,6 +117,9 @@
 			<div>
 				<input type="submit" name="generuj" id="generuj" value="Generuj">
 			</div>
+			<div><a href="hasla.txt" target="_blank">hasla.txt</a></div>
+			<div><a href="hasla.json" target="_blank">hasla.json</a></div>
+			<div><a href="hasla.xml" target="_blank">hasla.xml</a></div>
 		</fieldset>
 		<fieldset>
 			<legend>Hasła</legend>

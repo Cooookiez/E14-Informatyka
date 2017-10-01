@@ -85,7 +85,21 @@ function toJson($haslaDoPliku){
 }
 
 function toXml($haslaDoPliku){
+	$fileLocation = 'hasla.xml';
+	if(is_readable($fileLocation)){
+		$xml = simplexml_load_file($fileLocation);
+		echo '<pre>';
+		$xml->addChild('element');
+		$element_dl = $xml->count();
+		$xml->element[$element_dl-1]->addChild('data', date('Y.m.d H:i:s'));
+		foreach($haslaDoPliku as $haslo){
+			$haslo = htmlspecialchars($haslo, ENT_QUOTES);
+			$xml->element[$element_dl-1]->addChild('hasla', $haslo);
+		}
+		$xml->asXml($fileLocation);
+		echo '</pre>';
 
+	}else echo 'Błąd w otczytaniu';
 }
 
 ?>
