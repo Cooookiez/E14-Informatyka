@@ -14,18 +14,17 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Formularze](HTML/formularze.html)
     * [Podstawowe znaczniki](HTML/podstawowe-znaczniki.html)
     * [Podstawowy pusty plik](HTML/podstawowy-pusty-plik.html)
+* PHP
+    * [Zapis / odczyt plików](PHP/ZapisDoPliu.php)
 * ScriptyOgulne
     * [Pentle](ScriptyOgulne/pentle.php)
+    * [Sortowanie bąbelkowe](ScriptyOgulne/sortowanieBabelkowe.php)
 * SQL
     * [Podstawowe funkcje](SQL/funkcje.txt)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
 
 ## Do zrobinie
-* Skryp ogólne
-    * sortowania
-        * [ ] Bąbelkowe
-        * [ ] Jakieś inne?
 * C#
 * HTML + CSS
     * [ ] HTML
@@ -44,14 +43,14 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] jQ POST / GET
     * [ ] jQ Przydatne funkcje
 * PHP
-    * [ ] operacje na plikach
+    * [x] operacje na plikach
     * [ ] łączenie się z bazą danych
-    * [ ] z mienne
+    * [ ] zmienne
     * [ ] losowanie
 * Skryp ogólne
     * [x] Pentle
     * [ ] sortowania
-        * [ ] Bąbelkowe
+        * [x] Bąbelkowe
         * [ ] Jakieś inne?
 * SQL
     * [ ] Jak robić wszystko z konsoli
