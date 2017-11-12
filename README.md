@@ -20,6 +20,7 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Pentle](ScriptyOgulne/pentle.php)
     * [Sortowanie bąbelkowe](ScriptyOgulne/sortowanieBabelkowe.php)
 * SQL
+    * [żeczy za pomocą konsoli](SQL/Jak-robić-wszystko-z-konsoli.md)
     * [Podstawowe funkcje](SQL/funkcje.txt)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
@@ -35,7 +36,6 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] CSS
         * [ ] Rodzaje borderów
         * [ ] Przesunięcia textu
-        * [ ] Cień
 * JavaScript + jQuery
     * [ ] js Podstawy
     * [ ] jQ Cookies
@@ -49,11 +49,9 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [ ] losowanie
 * Skryp ogólne
     * [x] Pentle
-    * [ ] sortowania
-        * [x] Bąbelkowe
-        * [ ] Jakieś inne?
+    * [x] Sortowania bąbelkowe
 * SQL
-    * [ ] Jak robić wszystko z konsoli
+    * [x] Jak robić wszystko z konsoli
     * [ ] Podstawy
     * [ ] Łączenie sięz innymi tabelami
     * [x] Podstawowe funkcje
