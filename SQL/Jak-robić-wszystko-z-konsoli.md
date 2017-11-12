@@ -7,7 +7,7 @@ Enter password: zaq1@WSX
 
 ### Działąją tu również zapytania
 ```sql
-mysql> SELECT * FROM test;
+SELECT * FROM test;
 
 Wynik:
 +-------+-----------+-------------+--------+-------------+------------+
@@ -20,7 +20,7 @@ Wynik:
 ## Bazy danych
 ### Pokaż dostępne bazy danych
 ```sql
-mysql> show databases;
+show databases;
 
 Wynik:
 +---------------------+
@@ -33,14 +33,14 @@ Wynik:
 
 ### Wybierz baze danych
 ``` sql
-mysql> use Baza_1;
+use Baza_1;
 ```
 zostanie wyświetlona informaca o zmianie bazy danych (Można korzystać również jak już się jest w jakiejś bazie)
 
 ## Tabele
 ### Pokaż dostępne tabele (z wybranej bazy danych)
 ```sql
-mysql> show tables;
+show tables;
 
 Wynik:
 +-----------------------+
@@ -63,7 +63,7 @@ create table nazwa_tabeli(
 
 ### Pokazuje strukture danej tabeli
 ```sql
-mysql> describe nazwa_tabeli;
+describe nazwa_tabeli;
 
 Wynik:
 +----------+-------------+------+-----+---------+----------------+
@@ -78,22 +78,22 @@ Wynik:
 ### Modifikacje na tabelach
 ```sql
 Dodanie rekordu na koniec
-mysql> alter table nazwa_tabeli ADD telefon varchar(13);
+alter table nazwa_tabeli ADD telefon varchar(13);
 
 Dodanie rekordu jako pierwsze / po czymś:
-mysql> alter table nazwa_tabeli ADD e_mail varchar(40) FIRST/AFTER nazwisko;
+alter table nazwa_tabeli ADD e_mail varchar(40) FIRST/AFTER nazwisko;
 
 Zmiana na rekordzie (nazwa i typ)
-mysql> alter table nazwa_tabeli CHANGE e_mail Email varchar(60);
+alter table nazwa_tabeli CHANGE e_mail Email varchar(60);
 
 Zmiana na rekordzie (TYLKO typ)
-mysql> alter table nazwa_tabeli MODIFY imie varchar(40);
+alter table nazwa_tabeli MODIFY imie varchar(40);
 
 Usuwanie rekordu
-mysql> alter table nazwa_tabeli DROP COLUMN telefon;
+alter table nazwa_tabeli DROP COLUMN telefon;
 
 Zmiana nazwy tabeli (Nie rekordu)
-mysql> alter table nazwa_tabeli RENAME nazwaTabeli;
+alter table nazwa_tabeli RENAME nazwaTabeli;
 
 
 ```
