@@ -1,5 +1,7 @@
 # E14-Przydatne-wzory
 
+![How old are you](src/HowOldAreYou.jpg)
+
 Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q)
 
 ### Jeśli czegoś nie ma, a chce się szukiać to w [Zeczy Z Maksika By Kukiz](ZeczyZMaksikaByKukiz).
