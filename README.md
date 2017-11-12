@@ -21,7 +21,7 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Sortowanie bąbelkowe](ScriptyOgulne/sortowanieBabelkowe.php)
 * SQL
     * [żeczy za pomocą konsoli](SQL/Jak-robić-wszystko-z-konsoli.md)
-    * [Podstawowe funkcje](SQL/funkcje.txt)
+    * [Podstawowe funkcje](SQL/Funkcje.md)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
 
