@@ -1,3 +1,5 @@
+# Menu
+```cpp
 #include <iostream>
 #include <cstdlib>
 
@@ -50,3 +52,4 @@ int main()
 	}while(opcja!=0);
 	return 0;
 }
+```

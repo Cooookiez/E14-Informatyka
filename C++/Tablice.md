@@ -1,3 +1,5 @@
+# tablice
+```cpp
 #include <iostream>
 #include <string>
 
@@ -14,6 +16,7 @@ int main(int argc, char** argv) {
 	for(int i = 0; i < 4; i++){
 		cout << tablica1[i] << endl;
 	}
+    
 	/*
 	Wynik:
 		4
@@ -43,3 +46,4 @@ int main(int argc, char** argv) {
 	
 	return 0;
 }
+``

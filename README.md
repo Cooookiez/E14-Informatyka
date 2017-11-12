@@ -6,10 +6,10 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 
 ## Już jest
 * C++
-    * [Losowanie](C++/losowanie-liczb.cpp)
-    * [Menu](C++/Menu.cpp)
-    * [Tablice](C++/tablice.cpp)
-    * [Tworzenie funkcji](C++/tworzenie-funkcji.cpp)
+    * [Losowanie](C++/Losowanie-liczb.md)
+    * [Menu](C++/Menu.md)
+    * [Tablice](C++/Tablice.md)
+    * [Tworzenie funkcji](C++/Tworzenie-funkcji.md)
 * HTML + CSS
     * [Formularze](HTML/formularze.html)
     * [Podstawowe znaczniki](HTML/podstawowe-znaczniki.html)
