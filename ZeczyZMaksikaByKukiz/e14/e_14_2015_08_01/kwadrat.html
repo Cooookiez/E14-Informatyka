@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        function pole(){
+            var a = document.getElementById('dlBok').value;
+            if(a != parseInt(a)){
+                document.getElementById('odp').innerHTML = 'Należy wpisać liczbe';
+            }else{
+                document.getElementById('odp').innerHTML = 'P = a<sup>2</sup> = '+(a*a);
+            }
+        }
+        function obwot(){
+            var a = document.getElementById('dlBok').value;
+            if(a != parseInt(a)){
+                document.getElementById('odp').innerHTML = 'Należy wpisać liczbe';
+            }else{
+                document.getElementById('odp').innerHTML = 'Obw = 4a = '+(a*4);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <div id="baner"><a href=".">FIGURY GEOMETRYCZNE I MATEMATYCZNE</a></div>
+    <div id="panelL">
+        <h3>WYBIERZ FIGURĘ</h3>
+        <ol>
+            <li><a href="kwadrat.html">KWADRAT</a>
+                <ul>
+                    <li>obwót</li>
+                    <li>pole</li>
+                </ul>
+            </li>
+            <li><a href="kolo.html">KOŁO</a>
+                <ul>
+                    <li>obwót</li>
+                    <li>pole</li>
+                </ul>
+            </li>
+        </ol>
+        <h3><a href="baza/matematycy.accdb">MATEMATYCY</a></h3>
+    </div>
+    <div id="panelR">
+        <h1>KWADRAT</h1>
+        <div>
+            <label for="dlBok">Podaj długość boku: <input type="text" id="dlBok"></label>
+        </div>
+        <div>
+                <input onclick="pole()" type="button" value="Licz pole">
+                <input onclick="obwot()" type="button" value="Licz obwód">
+        </div>
+        <div id="odp"></div>
+    </div>
+    <div id="stopka">Strona stworzona przez 00000000000.</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Krzysztof Kukiz kukizk@gmail.com">
+	<title>Rysowanie funkcji</title>
+	<link rel="stylesheet" href="screen.css">
+	
+	<script src="../../../scripts/jq.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+	
+</head>
+<body>
+<form id="box" data_funkcjia="wykladnicza">
+	<header>
+		<h1>Wykres funkcji</h1>
+	</header>
+	
+	<article id="function-parametrs">
+		<section id="function-write"><span id="function-write-a">a</span><sup>x+<span id="function-write-b">b</span></sup>+<span id="function-write-c">c</span></section>
+		<section id="function-var">
+			<div><label for="function-var-a">a</label><input type="number" id="function-var-a" step="0.01" placeholder="2"></div>
+			<div><label for="function-var-b">b</label><input type="number" id="function-var-b" step="0.01" placeholder="0"></div>
+			<div><label for="function-var-c">c</label><input type="number" id="function-var-c" step="0.01" placeholder="0"></div>
+		</section>
+		<section id="function-oblicz">
+			<input type="submit" value="Oblicz">
+		</section>
+	</article>
+	
+	<article id="function-draw"></article>
+	
+	<article id="functio-range">
+		<table cellspacing="0" cellpadding="0">
+			<tr>
+				<th>x</th>
+				<td>-4</td>
+				<td>-3</td>
+				<td>-2</td>
+				<td>-1</td>
+				<td>0</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<th>y</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</table>
+	</article>
+	
+</form>
+</body>
+</html>

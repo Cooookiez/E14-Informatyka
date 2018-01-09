@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        function sprawdz(){
+            var haslo = document.getElementById('password').value;
+            var haslodl = haslo.length;
+            var jestLiczba = false;
+            var odp = '';
+            for(i = 0; i < haslodl; i++){
+                console.log(haslo[i]);
+                switch(haslo[i]){
+                    case '0':
+                    case '1':
+                    case '2':
+                    case '3':
+                    case '4':
+                    case '5':
+                    case '6':
+                    case '7':
+                    case '8':
+                    case '9':
+                    jestLiczba = true;
+                    console.log('hura');
+                    break;
+                }
+                if(jestLiczba) break;
+            }
+
+            if(haslodl == 0){
+                odp = '<span style="color: red">WPISZ HASŁO!</span>';
+            }else if(jestLiczba && haslodl >= 7){
+                odp = '<span style="color: green">DOBRE</span>';
+            }else if(jestLiczba && haslodl >= 4 && haslodl <= 6){
+                odp = '<span style="color: blue">ŚREDNIE</span>';
+            }else{
+                odp = '<span style="color: yellow">SŁABE</span>';
+            }
+            
+            document.getElementById('odp').innerHTML = odp;
+        }
+    </script>
+</head>
+<body>
+    <div id="baner"><h1><a href="index.html">Sprawdź swoje hasło</a></h1></div>
+    <div id="panelL">
+        <h2>Wybierz</h2>
+        <ol>
+            <li><a href="haslo.html">Sprawdź hasło</a></li>
+            <li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+        </ol>
+    </div>
+    <div id="panelR">
+        <p>Twoje hasło:
+            <input type="password" id="password">
+            <input type="button" value="Sprawdź" onclick="sprawdz()">
+        </p>
+        <p id="odp"></p>
+    </div>
+    <div id="stopka">
+        <h3>Miernik jakości hasła</h3>
+        <p>Stronę opracował: 00000000000</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* line 1, style.scss */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none; }
+
+/* line 8, style.scss */
+html {
+  top: 0; }
+  /* line 11, style.scss */
+  html body {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* line 21, style.scss */
+main {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  /* line 28, style.scss */
+  main .bl {
+    display: inline-block;
+    width: 5%;
+    height: 10%;
+    color: transparent; }
+
+/* line 36, style.scss */
+#jajo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(261px / 4);
+  height: calc(340px / 4); }
+
+/*# sourceMappingURL=style.css.map */

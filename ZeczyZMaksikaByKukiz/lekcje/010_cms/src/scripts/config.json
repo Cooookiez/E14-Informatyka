@@ -1,0 +1,33 @@
+{
+    "img-logo": {
+        "src": "/~d14.kukiz.krzysztof/bin/contnet/lekcje/010_cms/src/img/logo/logo.png",
+        "alt": "logo"
+    },
+    "menu": [
+        {
+            "Name": "Menu",
+            "nth": 0,
+            "src": "www.google.com/pl/0"
+        },
+        {
+            "Name": "Opcja 1",
+            "nth": 1,
+            "src": "www.google.com/pl/1"
+        },
+        {
+            "Name": "Opcja 3",
+            "nth": 3,
+            "src": "www.google.com/pl/3"
+        },
+        {
+            "Name": "Opcja 2",
+            "nth": 2,
+            "src": "www.google.com/pl/2"
+        },
+        {
+            "Name": "Opcja 4",
+            "nth": 4,
+            "src": "www.google.com/pl/4"
+        }
+    ]
+}

@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=VT323&subset=latin-ext');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	transition: all 1000ms ease;
+}
+
+$team-width: 180px;
+$pkt-width: 100px;
+$box-shadow: 0px 0px 30px -1px black;
+$red: #9B0000, #C60000, #FF0000, #FF3939, #FF6464;
+$blue: #010195, #0000C0, #0000FF, #1F1FFF, #4949FC;
+$inGame-header-height: 70px;
+$inGame-footer-height: 70px;
+$header-gratient: linear-gradient(to top right, nth($red,1), nth($blue,1));
+$footer-gratient: linear-gradient(to top right, nth($red,5), nth($blue,5));
+$pytanie-height: 35px;
+$pytanie-pkt-width: 30px;
+$key-height-width: 50px;
+$tablica-pkt-height: 50px;
+
+body{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	&>header{
+		display: block;
+		position: relative;
+		z-index: 920;
+		height: 100%;
+		background-color: purple;
+		background: -webkit-$header-gratient;
+		background: -o-$header-gratient;
+		background: $header-gratient;
+		overflow: hidden;
+		box-shadow: $box-shadow;
+		h1{
+			text-align: center;
+			color: yellow;
+			text-shadow: 12px 12px 0px black;
+			font-size: 120px;
+			letter-spacing: 15px;
+		}//h1
+		input[type=button]{
+			margin: 0 auto;
+			display: block;
+			font-size: 50px;
+			padding: 10px 20px;
+			letter-spacing: 5px;
+			cursor: pointer;
+			background-color: yellow;
+			background: -webkit-linear-gradient(bottom left, yellow, red);
+			background: -o-linear-gradient(bottom left, yellow, red);
+			background: linear-gradient(to top right, yellow, red);
+			font-weight: 900;
+			box-shadow:  12px 12px 0px 0px black;
+			&:hover{
+				box-shadow:  26px 16px 0px 0px black;
+				letter-spacing: 12px;
+			}
+			&:active{
+				box-shadow: 16px 6px 0px 0px black;
+				letter-spacing: 12px;
+			}
+		}//input[type=button]
+		&.inGame{
+			height: $inGame-header-height;
+			h1{
+				color: yellow;
+				text-shadow: 6px 6px 0px black;
+				font-size: 40px;
+				letter-spacing: 5px;
+				padding: 10px 15px;
+			}//h1
+			input[type=button]{
+				opacity: 0;
+			}//input[type=button]
+		}
+	}//>header
+	&>main{
+		display: block;
+		z-index: 400;
+		height: calc(100% - #{$inGame-header-height} - #{$inGame-footer-height});
+		background-color: white;
+		background-image: url(../bg/dust_scratches.png);
+		&>section{
+			display: block;
+			float: left;
+		}//>section
+		&>#teamRed,
+		&>#teamBlue{
+			width: $team-width;
+			height: 100%;
+			box-shadow: $box-shadow;
+			z-index: 700;
+			background-color: rgba(0,0,0,.3);
+			&>div{
+				position: relative;
+				top: 50%;
+  				transform: translateY(-50%);
+			}
+		}//>#teamRed,>#teamBlue
+		.osTeam{
+			font-size: 60px;
+			padding: 10px;
+			i{
+				//text-shadow: 5px 5px 0 black;
+			}
+		}//>.osTeam
+		.osTeamRed{
+			color: red;
+			i{
+				margin-left: 0;
+				&.activePerson{
+					margin-left: calc(#{$team-width} - 20px - 60px);
+					&.nth1{text-shadow: -5px 4px 0 black;}
+					&.nth2{text-shadow: -5px 2px 0 black;}
+					&.nth3{text-shadow: -5px 0px 0 black;}
+					&.nth4{text-shadow: -5px -2px 0 black;}
+					&.nth5{text-shadow: -5px -4px 0 black;}
+				}
+				&.nth1{ color: nth($red, 1); text-shadow: 5px 4px 0 black;}
+				&.nth2{ color: nth($red, 2); text-shadow: 5px 2px 0 black;}
+				&.nth3{ color: nth($red, 3); text-shadow: 5px 0 0 black;}
+				&.nth4{ color: nth($red, 4); text-shadow: 5px -2px 0 black;}
+				&.nth5{ color: nth($red, 5); text-shadow: 5px -4px 0 black;}
+			}
+		}//>.osTeamRed
+		.osTeamBlue{
+			color: blue;
+			i{
+				margin-left: calc(#{$team-width} - 20px - 60px);
+				&.activePerson{
+					margin-left: 0;
+					&.nth1{text-shadow: 5px 4px 0 black;}
+					&.nth2{text-shadow: 5px 2px 0 black;}
+					&.nth3{text-shadow: 5px 0px 0 black;}
+					&.nth4{text-shadow: 5px -2px 0 black;}
+					&.nth5{text-shadow: 5px -4px 0 black;}
+				}
+				&.nth1{ color: nth($blue, 1); text-shadow: -5px 4px 0 black;}
+				&.nth2{ color: nth($blue, 2); text-shadow: -5px 2px 0 black;}
+				&.nth3{ color: nth($blue, 3); text-shadow: -5px 0px 0 black;}
+				&.nth4{ color: nth($blue, 4); text-shadow: -5px -2px 0 black;}
+				&.nth5{ color: nth($blue, 5); text-shadow: -5px -4px 0 black;}
+			}
+		}//>.osTeamBlue
+		&>#tablica{
+			z-index: 600;
+			width: calc(100% - 2*#{$team-width});
+			height: 100%;
+			&>#panel{
+				background-color: black;
+				color: yellow;
+				width: 700px;
+				height: 160px + 120px + $tablica-pkt-height;
+				margin: 20px auto 0 auto;
+				font-family: 'VT323', monospace;
+				&>#pytania{
+					font-size: 40px;
+					text-align: center;
+					padding: 20px;
+					height: 120px;
+					background-color: #222;
+					box-shadow: 0 2px 10px -2px yellow;
+				}
+				&>#errRed,
+				&>#errBlue{
+					float: left;
+					width: $pkt-width;;
+					height: calc(100% - 120px - $tablica-pkt-height);
+					font-size: 130px;
+					padding: 0;
+					margin: 0;
+					line-height: 50%;
+					text-align: center;
+					&>.x{
+						opacity: .2;
+						&.active{
+							opacity: 1;
+						}
+					}
+				}
+				&>#errRed{
+					text-shadow: 6px 0px 0px grey;
+				}//>#errRed
+				&>#errBlue{
+					text-shadow: -6px 0px 0px grey;
+				}//>#errBlue
+				&>#odp{
+					float: left;
+					width: calc(100% - 2*#{$pkt-width});;
+					height: calc(100% - 120px - $tablica-pkt-height);
+					&>.odp{
+						height: $pytanie-height;
+						width: 100%;
+						&>section{
+							height: 100%;
+							float: left;
+							&.tresc{
+								width: calc(100% - 30px);
+								font-size: 30px;
+								overflow: hidden;
+								padding-top: 6px;
+							}//&.tresc
+							&.pkt{
+								text-align: center;
+								font-size: 30px;
+								width: 30px;
+								padding-top: 6px;
+							}//&.pkt
+						}//>section
+					}//>.odp
+				}//>#odp
+				&>#pktSum{
+					background-color: black;
+					height: $tablica-pkt-height;
+					float: left;
+					width: 100%;
+					#pktIle,
+					#pktMnoznik{
+						float: left;
+						font-size: 35px;
+						padding: 5px;
+						height: 100%;
+						text-align: right;
+					}
+					
+					#pktIle{
+						font-size: 35px;
+						width: calc(100% - #{$tablica-pkt-height});
+					}
+					#pktMnoznik{
+						font-size: 35px;
+						width: #{$tablica-pkt-height};
+					}
+				}
+			}//>#panel
+			&>#tresc{
+				width: 700px;
+				margin: 20px auto 0 auto;
+				overflow: hidden;
+				&>header{
+					padding: 10px;
+					text-align: center;
+					letter-spacing: 2px;
+					height: 39px;
+					&:nth-child(1){
+						background-color: black;
+						color: white;
+					}
+					&:nth-child(2){
+						color: black;
+					}
+				}//>header
+				&>#keyboard{
+					padding-bottom: 10px;
+					&>.keyRow{
+						width: 100%;
+						height: $key-height-width;
+						margin-top: 10px;
+						*{
+							transition: all ease 0s;
+						}
+						&>.key{
+							width: $key-height-width;
+							height: $key-height-width;
+							float: left;
+							margin-right: 10px;
+							font-weight: 900;
+							font-size: 40px;
+							text-align: center;
+							overflow: hidden;
+							border-radius: 5px;
+							&.r{
+								background-color: nth($red,1);
+								color: nth($red,5);
+								box-shadow: 4px 4px 0px 0px grey;
+								&.pressed{
+									box-shadow: inset -4px -4px 0px 0px grey;
+								}
+							}
+							&.b{
+								background-color: nth($blue,1);
+								color: nth($blue,5);
+								box-shadow: -4px 4px 0px 0px grey;
+								&.pressed{
+									box-shadow: inset 4px -4px 0px 0px grey;
+								}
+							}
+							&.n{
+								background-color: #222;
+								color: #333;
+								opacity: 0;
+							}
+						}//>.key
+						$paddingR: 58px;
+						&:nth-child(1){
+							padding-left: $paddingR + 0px;
+						}
+						&:nth-child(2){
+							padding-left: $paddingR + 20px;
+						}
+						&:nth-child(3){
+							padding-left: $paddingR + 40px;
+						}
+					}//>.keyRow
+				}//>#keyboard
+				&.hide{
+					max-height: 0px;
+				}
+			}//>#tresc
+			$pisz-height: 60px;
+			&>#pisz{
+				display: block;
+				width: 700px;
+				height: $pisz-height;
+				margin: 20px auto 0 auto;
+				background-color: red;
+				background: -webkit-linear-gradient(bottom right, nth($blue,3), nth($blue,3));
+				background: -o-linear-gradient(bottom right, nth($blue,3), nth($blue,3));
+				background: linear-gradient(to top right, nth($red,3), nth($blue,3));
+				overflow: hidden;
+				&.hide{
+					height: 0px;
+				}
+				&>div{
+					width: calc(100%);
+					height: calc(100%);
+					&.toRed{
+						.red{width: $pisz-height;}
+						.blue{width: 0;}
+					}
+					&.toBlue{
+						.red{width: 0;}
+						.blue{width: $pisz-height;}
+					}
+					&>input{
+						height: 100%;
+						float: left;
+						display: block;
+						&[type=submit]{
+							width: $pisz-height;
+							color: yellow;
+							cursor: pointer;
+							z-index: 100;
+							width: $pisz-height/2;
+							&.red{background-color: nth($red,3);}
+							&.blue{background-color: nth($blue,3);}
+							&:hover{
+								box-shadow: inset 0 0 10px 2px black;
+								text-shadow: 0 0 10px black;
+							}
+							&:active{
+								box-shadow: inset 0 0 5px 2px black;
+								text-shadow: 0 0 5px black;
+							}
+						}//&[type=submit]
+						&[type=text]{
+							z-index: 50;
+							width: calc(100% - #{$pisz-height});
+							background-color: rgba(0,0,0,.3);
+							font-size: 20px;
+							text-align: center;
+							color: yellow;
+							&::placeholder{
+								color: darkgoldenrod;
+							}
+						}//&[type=text]
+					}//>input
+				}//>div
+			}//>#pisz
+		}//>#tablica
+	}//>main
+	&>footer{
+		display: block;
+		position: relative;
+		box-shadow: $box-shadow;
+		z-index: 900;
+		height: $inGame-footer-height;
+		background-color: purple;
+		background: -webkit-$footer-gratient;
+		background: -o-$footer-gratient;
+		background: $footer-gratient;
+		&>section{
+			float: left;
+			height: 100%;
+		}//>section
+		&>#pktRed,
+		&>#pktBlue{
+			width: $team-width;
+			z-index: 850;
+			font-weight: 900;
+			color: yellow;
+			text-shadow: 3px 3px 0px black;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-align: center;
+			height: 100%;
+			padding: 20px;
+		}//>#teamRed,>#teamBlue
+		&>#stopkaTresc{
+			width: calc(100% - 2*#{$team-width});
+			text-align: center;
+		}//>#stopkaTresc
+	}//>footer
+}//body

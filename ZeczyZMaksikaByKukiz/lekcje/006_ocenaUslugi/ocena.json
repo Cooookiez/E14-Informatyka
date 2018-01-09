@@ -1,0 +1,18 @@
+{
+	"produkt_id":{
+		"#0001":{
+			"2017-10-05":{"usluga":"5","realizacja":"5","zgodnosc":"5","cena":"5"},
+			"2017-10-06":{"usluga":"5","realizacja":"5","zgodnosc":"10","cena":"10"},
+			"2017-10-15":{"usluga":"0","realizacja":"0","zgodnosc":"10","cena":"0"}
+		},
+		"#0002":{
+			"2017-10-05":{"usluga":"5","realizacja":"5","zgodnosc":"5","cena":"5"},
+			"2017-10-06":{"usluga":"10","realizacja":"0","zgodnosc":"5","cena":"10"}
+		},
+		"#0003":{"2017-10-05":{"usluga":"5","realizacja":"0","zgodnosc":"0","cena":"5"}},
+		"#0005":{"2017-10-05":{"usluga":"10","realizacja":"10","zgodnosc":"0","cena":"5"}},
+		"#0023":{"2017-10-05":{"usluga":"5","realizacja":"0","zgodnosc":"0","cena":"10"}},
+		"#0099":{"2017-10-05":{"usluga":"10","realizacja":"5","zgodnosc":"5","cena":"5"}},
+		"#0021":{"2017-10-05":{"usluga":"5","realizacja":"0","zgodnosc":"5","cena":"5"}}
+	}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        function pokKw(){
+            document.getElementById('img').innerHTML = '<img src="grafika/kwadrat.png" alt="Kwadrat">';
+        }
+        function pokKo(){
+            document.getElementById('img').innerHTML = '<img src="grafika/kolo.png" alt="Koło">';
+        }
+        function chowaj(){
+            document.getElementById('img').innerHTML = '';
+        }
+    </script>
+</head>
+<body>
+    
+    <div id="baner"><a href=".">FIGURY GEOMETRYCZNE I MATEMATYCZNE</a></div>
+    <div id="panelL">
+        <h3>WYBIERZ FIGURĘ</h3>
+        <ol>
+            <li><a href="kwadrat.html">KWADRAT</a>
+                <ul>
+                    <li>obwót</li>
+                    <li>pole</li>
+                </ul>
+            </li>
+            <li><a href="kolo.html">KOŁO</a>
+                <ul>
+                    <li>obwót</li>
+                    <li>pole</li>
+                </ul>
+            </li>
+        </ol>
+        <h3><a href="baza/matematycy.accdb">MATEMATYCY</a></h3>
+    </div>
+    <div id="panelR">
+        <h1>FIGURY GEOMETRYCZNE</h1>
+        <p>
+            <span onmouseout="chowaj()" onmouseover="pokKw()">KWADRAT</span>
+            <span onmouseout="chowaj()" onmouseover="pokKo()">KOŁO</span>
+        </p>
+        <div id="img"></div>
+    </div>
+    <div id="stopka">Strona stworzona przez 00000000000.</div>
+</body>
+</html>

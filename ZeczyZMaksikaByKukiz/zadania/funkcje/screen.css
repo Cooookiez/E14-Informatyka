@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin-ext");
+/* line 3, screen.scss */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  transition: 1s all ease; }
+
+/* line 13, screen.scss */
+body {
+  font-size: 36px;
+  background-color: lightgrey;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/intersection.png"); }
+  /* line 17, screen.scss */
+  body > #box {
+    background-color: lightgrey;
+    box-shadow: 0 0 20px -5px black;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    margin: 50px auto; }
+    /* line 24, screen.scss */
+    body > #box > header {
+      display: block;
+      width: 100%;
+      height: 50px; }
+      /* line 28, screen.scss */
+      body > #box > header > h1 {
+        display: block;
+        height: 100%;
+        float: left;
+        font-size: 34px;
+        padding: 4px 15px;
+        letter-spacing: 5px; }
+    /* line 37, screen.scss */
+    body > #box > article {
+      display: inline-block;
+      position: relative; }
+      /* line 40, screen.scss */
+      body > #box > article#function-parametrs {
+        width: 200px;
+        height: 500px;
+        position: relative;
+        z-index: 15; }
+        /* line 45, screen.scss */
+        body > #box > article#function-parametrs > section {
+          display: block;
+          margin-top: 5px; }
+          /* line 48, screen.scss */
+          body > #box > article#function-parametrs > section#function-write {
+            text-align: center; }
+          /* line 52, screen.scss */
+          body > #box > article#function-parametrs > section#function-var div {
+            height: 50px;
+            width: 200px;
+            margin-top: 5px; }
+            /* line 56, screen.scss */
+            body > #box > article#function-parametrs > section#function-var div label {
+              display: inline-block;
+              border-right: 1px solid black;
+              height: 50px;
+              width: 50px;
+              text-align: center; }
+            /* line 63, screen.scss */
+            body > #box > article#function-parametrs > section#function-var div input {
+              background-color: inherit;
+              display: inline-block;
+              position: fixed;
+              height: 50px;
+              width: 150px;
+              font-size: 26px;
+              padding: 5px; }
+          /* line 74, screen.scss */
+          body > #box > article#function-parametrs > section#function-oblicz {
+            width: 100%; }
+            /* line 76, screen.scss */
+            body > #box > article#function-parametrs > section#function-oblicz input {
+              width: 100%;
+              height: 40px;
+              cursor: pointer;
+              font-weight: 900;
+              font-size: 25px;
+              letter-spacing: 5px;
+              background-color: #3366cc; }
+              /* line 84, screen.scss */
+              body > #box > article#function-parametrs > section#function-oblicz input:hover {
+                background-color: #1552b8;
+                letter-spacing: 8px; }
+      /* line 92, screen.scss */
+      body > #box > article#function-draw {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        width: 800px;
+        height: 500px;
+        z-index: 8; }
+      /* line 100, screen.scss */
+      body > #box > article#functio-range {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+        z-index: 10; }
+        /* line 107, screen.scss */
+        body > #box > article#functio-range table {
+          width: 100%;
+          height: 100%;
+          column-span: none; }
+          /* line 112, screen.scss */
+          body > #box > article#functio-range table tr th, body > #box > article#functio-range table tr td {
+            padding: 5px; }
+          /* line 115, screen.scss */
+          body > #box > article#functio-range table tr td {
+            border: 1px solid black; }
+
+/* line 125, screen.scss */
+#function-write-a,
+label[for="function-var-a"] {
+  color: darkmagenta; }
+
+/* line 130, screen.scss */
+#function-write-b,
+label[for="function-var-b"] {
+  color: darkred; }
+
+/* line 135, screen.scss */
+#function-write-c,
+label[for="function-var-c"] {
+  color: darkgoldenrod; }
+
+/*# sourceMappingURL=screen.css.map */

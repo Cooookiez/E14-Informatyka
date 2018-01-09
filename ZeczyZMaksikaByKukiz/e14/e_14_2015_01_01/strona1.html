@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <style>
+    #box{
+        width: 600px;
+        margin: 50px auto;
+    }
+    #banner{
+        height: 75px;
+        margin-bottom: 20px;
+    }
+    #banner img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    #panel{
+        float: left;
+        margin-right: 10px;
+        width: 110px;
+    }
+    #tresc{
+        float: left;
+        width: calc(100% - 110px - 10px);
+    }
+    </style>
+    <script>
+
+        function sprawdz(){
+            var l1 = document.getElementById("liczba1").value;
+            var l2 = document.getElementById("liczba2").value;
+
+            if(l1 != parseInt(l1)){
+                document.getElementById("wynik").innerText = "Prosze uzupełnić obie liczby";
+                return [false, 0, 0];
+            }else if(l2 != parseInt(l2)){
+                document.getElementById("wynik").innerText = "Prosze uzupełnić obie liczby";
+                return [false, l1, 0];
+            }
+            return [true, l1, l2];
+        }
+        function add(t){
+            if(t[0]){
+                document.getElementById("wynik").innerText = "Wynik dziłania wynosi: "+(parseInt(t[1])+parseInt(t[2]));
+            }
+        }
+        function sub(t){
+            if(t[0]){
+                document.getElementById("wynik").innerText = "Wynik dziłania wynosi: "+(parseInt(t[1])-parseInt(t[2]));
+            }
+        }
+        function tim(t){
+            if(t[0]){
+                document.getElementById("wynik").innerText = "Wynik dziłania wynosi: "+(parseInt(t[1])*parseInt(t[2]));
+            }
+        }
+        function div(t){
+            if(t[0]){
+                if(parseInt(t[2]) != 0){
+                    document.getElementById("wynik").innerText = "Wynik dziłania wynosi: "+(parseInt(t[1])/parseInt(t[2]));
+                }else document.getElementById("wynik").innerText = "Nie wolna dzielić przez zero";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="box">
+        <div id="banner"><a href="."><img src="baner.jpg" alt="baner"></a></div>
+        <div id="panel">
+            Menu<br>
+            <a href="strona1.html">Proste działania</a><br>
+            <a href="strona2.php">Potęgowanie</a>
+        </div>
+        <div id="tresc">
+            <h1>PROSTE DZIŁANIA</h1>
+            <label for="liczba1">Podaj pierwszą liczbę: <input type="number" id="liczba1"></label><br>
+            <label for="liczba2">Podaj drugą liczbę: <input type="number" id="liczba2"></label><br>
+            <input type="button" onclick="add(sprawdz())" value="DODAWANIE">
+            <input type="button" onclick="sub(sprawdz())" value="ODEJMOWANIE">
+            <input type="button" onclick="tim(sprawdz())" value="MNOŻENIE">
+            <input type="button" onclick="div(sprawdz())" value="DZIELENIE">
+            <br>
+            <p id="wynik"></p>
+        </div>
+    </div>
+</body>
+</html>
