@@ -19,6 +19,7 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 * Java Script
     * [Ogulne](JavaScript/ogolne.md)
 * PHP
+    * [Łączenie się z sql](PHP/polaczZSql.php)
     * [Zapis / odczyt plików](PHP/ZapisDoPliu.php)
 * ScriptyOgulne
     * [Pentle](ScriptyOgulne/pentle.php)
@@ -30,33 +31,16 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
 
 
 ## Do zrobinie
-* C#
 * HTML + CSS
     * [ ] HTML
-        * [x] Podstawowy pusty plik
         * [ ] Podstawowy znaczniki
-        * [x] Formularze
         * [ ] audio / video
     * [ ] CSS
         * [ ] Rodzaje borderów
         * [ ] Przesunięcia textu
-* JavaScript + jQuery
-    * [ ] js Podstawy
-    * [ ] jQ Cookies
-    * [ ] jQ Podstawy
-    * [ ] jQ POST / GET
-    * [ ] jQ Przydatne funkcje
 * PHP
-    * [x] operacje na plikach
-    * [ ] łączenie się z bazą danych
     * [ ] zmienne
-    * [ ] losowanie
-* Skryp ogólne
-    * [x] Pentle
-    * [x] Sortowania bąbelkowe
+    * [ ] losowanie 
 * SQL
-    * [x] Jak robić wszystko z konsoli
     * [ ] Podstawy
     * [ ] Łączenie sięz innymi tabelami
-    * [x] Podstawowe funkcje
-    * [x] Przykładowe zapytania
