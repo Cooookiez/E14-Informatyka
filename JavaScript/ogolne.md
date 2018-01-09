@@ -10,7 +10,7 @@ function towja_funkcjia(){
 <input onclick="towja_funkcjia()" type="button" value="napis na guziku">
 ```
 
-## pobranie wardości z html'a i zwrucenie jej
+## pobranie wartosci z html'a i zwrócenie jej
 
 ``` js
 function add(){

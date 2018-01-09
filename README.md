@@ -17,7 +17,7 @@ Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrF
     * [Podstawowe znaczniki](HTML/podstawowe-znaczniki.html)
     * [Podstawowy pusty plik](HTML/podstawowy-pusty-plik.html)
 * Java Script
-    * [Ogulne](JavaScript/ogulne.md)
+    * [Ogulne](JavaScript/ogolne.md)
 * PHP
     * [Zapis / odczyt plików](PHP/ZapisDoPliu.php)
 * ScriptyOgulne
