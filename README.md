@@ -2,9 +2,9 @@
 
 ![How old are you](src/HowOldAreYou.jpg)
 
-Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q)
+Link do moich notatek z szkoły na [OneNote](https://1drv.ms/o/s!AmDkWpQlkhSEhrFVGxbvrhM-dxhn0Q) (online)
 
-### Jeśli czegoś nie ma, a chce się szukiać to w [Zeczy Z Maksika By Kukiz](ZeczyZMaksikaByKukiz).
+### Jeśli czegoś nie ma, a chce się szukiać to w [Zeczy Z Maksika By Kukiz](ZeczyZMaksikaByKukiz) (offline).
 
 ## Już jest
 * C++
