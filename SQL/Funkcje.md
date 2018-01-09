@@ -1,5 +1,13 @@
 # Funkcje
 
+## Łączenie się z tabelą za pomocą innych id
+``` sql
+SELECT *
+FROM `tab1`
+JOIN `tab2` on `tab2_id` = `tab1_id`
+```
+
+
 ## Tekstowe
 `COINCAT(pole1, pole2, pole3)` -> "pole1pole2pole3"
 	łączy znaki z pul
