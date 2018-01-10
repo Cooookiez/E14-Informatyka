@@ -16,7 +16,7 @@
 	$index = 5;
 	while(index > 2){
 		cout << index << "\t";
-		index--;
+		$index--;
 	}
 	echo "\n";
 	//wynik:	5	4	3
