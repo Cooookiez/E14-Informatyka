@@ -28,4 +28,4 @@
     * [Podstawowe funkcje + łączenie się z zewnętrznymi tabelami](SQL/Funkcje.md)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
-* Jeśli czegoś nie ma, a chce się szukiać to w folderze [ZeczyZMaksikaByKukiz](ZeczyZMaksikaByKukiz) (offline).
+* Jeśli czegoś nie ma, a chce się szukiać to w folderze [ZeczyZMaksikaByKukiz](ZeczyZMaksikaByKukiz).
