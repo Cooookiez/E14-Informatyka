@@ -1,10 +1,18 @@
 # E14-Przydatne-wzory
 
+# ToDo
+* c++
+    * odczyt / zapis do pliku
+    * funkcje
+    * czas
+
+# Zrobiione
 * C++
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
     * [Tablice](C++/Tablice.md)
     * [Tworzenie funkcji](C++/Tworzenie-funkcji.md)
+    * [Operacje na plikach](C++/pliki.md)
 
 * HTML + CSS
     * [Formularze](HTML/formularze.html)
