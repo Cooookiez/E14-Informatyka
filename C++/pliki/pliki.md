@@ -1,5 +1,7 @@
 # Operacje na plikach
 Odczytywany plik: [informatycy.txt](informatycy.txt)
+
+Plik cpp: [pliki.cpp](pliki.cpp)
 Wymagane biblioteki:
 ```c++
 #include <iostream>
@@ -53,7 +55,7 @@ Konrad Wojda
 ```c++
     ofstream ofile;
     ofile.open("nadpisywanie.txt", ios::out);
-    if(ofile){
+    if(ofile.good()){
         cout << "Zapis START" << endl;
         for(int i = 0; i < 20; i++){
             ofile << i << ", ";
@@ -64,11 +66,12 @@ Konrad Wojda
         cout << "coś nie pykło" << endl;
     }
 ```
+Wynik : [nadpisywanie.txt](nadpisywanie.txt)
 ### Nadpisywanie linijek w pliku (ios::in)
 ```c++
     ofstream ofile;
     ofile.open("nadpisywanie2.txt", ios::in);
-    if(ofile){
+    if(ofile.good()){
         cout << "Zapis START" << endl;
         for(int i = 0; i < 20; i++){
             ofile << i << ", ";
@@ -79,11 +82,12 @@ Konrad Wojda
         cout << "coś nie pykło" << endl;
     }
 ```
+Wynik : [nadpisywanie2.txt](nadpisywanie2.txt)
 ### Dopisywanie do pliku (ios::app)
 ```c++
     ofstream ofile;
     ofile.open("dopisywane.txt", ios::app);
-    if(ofile){
+    if(ofile.good()){
         cout << "Zapis ŚTART" << endl;
         for(int i = 0; i < 20; i++){
             ofile << i << ", ";
@@ -94,3 +98,4 @@ Konrad Wojda
         cout << "coś nie pykło" << endl;
     }
 ```
+Wynik : [dopisywane.txt](dopisywane.txt)

@@ -1,18 +1,30 @@
 # E14-Przydatne-wzory
 
 # ToDo
-* c++
-    * odczyt / zapis do pliku
-    * funkcje
-    * czas
+* C++
+    * [x] odczyt / zapis do pliku
+    * [ ] funkcje
+        * [ ] zamiany liczbowe
+            * [ ] bin2dec
+            * [ ] dec2bin
+            * [ ] hex2dec
+            * [ ] dec2hex
+            * [ ] oct2dec
+            * [ ] dec2oct
+    * [x] czas
+    * [ ] garbate
+    * [ ] referencje
+    * [ ] wskaźniki
+    * [ ] obiekty
 
 # Zrobiione
 * C++
+    * [Czas](C++/czas/czas.md)
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
     * [Tablice](C++/Tablice.md)
     * [Tworzenie funkcji](C++/Tworzenie-funkcji.md)
-    * [Operacje na plikach](C++/pliki.md)
+    * [Operacje na plikach](C++/pliki/pliki.md)
 
 * HTML + CSS
     * [Formularze](HTML/formularze.html)

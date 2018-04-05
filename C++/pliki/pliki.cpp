@@ -31,7 +31,7 @@ void odczytPoLinijce(){
 void nadpisywaniePliku(){
 	ofstream ofile;
 	ofile.open("nadpisywanie.txt", ios::out);
-	if(ofile){
+	if(ofile.good()){
 		cout << "Zapis START" << endl;
 		for(int i = 0; i < 20; i++){
 			ofile << i << ", ";
@@ -46,7 +46,7 @@ void nadpisywaniePliku(){
 void nadpisywanieLinijekPliku(){
 	ofstream ofile;
 	ofile.open("nadpisywanie2.txt", ios::in);
-	if(ofile){
+	if(ofile.good()){
 		cout << "Zapis START" << endl;
 		for(int i = 0; i < 20; i++){
 			ofile << i << ", ";
@@ -61,7 +61,7 @@ void nadpisywanieLinijekPliku(){
 void dopisywanieDoPliku(){
 	ofstream ofile;
 	ofile.open("dopisywane.txt", ios::app);
-	if(ofile){
+	if(ofile.good()){
 		cout << "Zapis ŒTART" << endl;
 		for(int i = 0; i < 20; i++){
 			ofile << i << ", ";
