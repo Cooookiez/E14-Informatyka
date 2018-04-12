@@ -1,5 +1,5 @@
 # E14-Przydatne-wzory
-
+![da]()
 # ToDo
 * C++
     * [x] odczyt / zapis do pliku
@@ -16,10 +16,11 @@
     * [ ] referencje
     * [ ] wskaźniki
     * [ ] obiekty
+    * [ ] sortowanie bąbelkowe
 
-# Zrobiione
+# Zrobione
 * C++
-    * [Czas](C++/czas/czas.md)
+    * [Czas](C++/czas.cpp)
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
     * [Tablice](C++/Tablice.md)
@@ -39,7 +40,7 @@
     * [Łączenie się z sql](PHP/polaczZSql.php)
     * [Zapis / odczyt plików](PHP/ZapisDoPliu.php)
 
-* ScriptyOgulne
+* Scripty Ogulne
     * [Pentle](ScriptyOgulne/pentle.php)
     * [Sortowanie bąbelkowe](ScriptyOgulne/sortowanieBabelkowe.php)
 
@@ -48,4 +49,4 @@
     * [Podstawowe funkcje + łączenie się z zewnętrznymi tabelami](SQL/Funkcje.md)
     * [Przykładowe zapytania](SQL/przykładowe-zapytania.sql)
 
-* Jeśli czegoś nie ma, a chce się szukiać to w folderze [ZeczyZMaksikaByKukiz](ZeczyZMaksikaByKukiz).
+* Jeśli czegoś nie ma, a chce się szukiać to w folderze [ZeczyZMaksikaByKukiz](ZeczyZMaksikaByKukiz) _(E-14 ONLY)_.

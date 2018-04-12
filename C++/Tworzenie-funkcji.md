@@ -1,6 +1,6 @@
 # Tworzenie funkcji
 
-## voic
+## void
 > nic nie zwraca
 ```cpp
 void nicNIeZwraca(int wiek){
