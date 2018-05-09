@@ -18,11 +18,12 @@
     * [x] wskaźniki
         * [x] zmienne
         * [x] Zwracanie tablic
-    * [ ] Classy / obiekty
+    * [x] Classy / obiekty
 
 # Zrobione
 * C++
     * [bin_dec_oct_hex2bin_dec_oct_hex](C++/funkcje/bin_dec_oct_hex2bin_dec_oct_hex.md)
+    * [Clasy](C++/clasy.cpp)
     * [Czas](C++/czas.cpp)
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
