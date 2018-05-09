@@ -5,23 +5,24 @@
     * [x] odczyt / zapis do pliku
     * [ ] funkcje
         * [ ] zamiany liczbowe
-            * [ ] bin2dec
-            * [ ] dec2bin
-            * [ ] hex2dec
-            * [ ] dec2hex
-            * [ ] oct2dec
-            * [ ] dec2oct
+            * [x] bin2dec
+            * [x] dec2bin
+            * [x] hex2dec
+            * [x] dec2hex
+            * [x] oct2dec
+            * [x] dec2oct
+            * [ ] sortowanie bąbelkowe
     * [x] czas
     * [ ] garbate
     * [x] referencje (jest troche w wskaźnikach)
     * [x] wskaźniki
         * [x] zmienne
         * [x] Zwracanie tablic
-    * [ ] obiekty
-    * [ ] sortowanie bąbelkowe
+    * [ ] Classy / obiekty
 
 # Zrobione
 * C++
+    * [bin_dec_oct_hex2bin_dec_oct_hex](C++/funkcje/bin_dec_oct_hex2bin_dec_oct_hex.md)
     * [Czas](C++/czas.cpp)
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
