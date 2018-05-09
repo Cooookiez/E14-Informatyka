@@ -11,7 +11,7 @@
             * [x] dec2hex
             * [x] oct2dec
             * [x] dec2oct
-            * [ ] sortowanie bąbelkowe
+            * [x] sortowanie bąbelkowe
     * [x] czas
     * [ ] garbate
     * [x] referencje (jest troche w wskaźnikach)
@@ -27,6 +27,7 @@
     * [Czas](C++/czas.cpp)
     * [Losowanie](C++/Losowanie-liczb.md)
     * [Menu](C++/Menu.md)
+    * [Sortowanie bombelkowe](C++/sortowanie.cpp)
     * [Tablice](C++/Tablice.md)
     * [Tworzenie funkcji](C++/Tworzenie-funkcji.md)
     * [Operacje na plikach](C++/pliki/pliki.md)
