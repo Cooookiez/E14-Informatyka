@@ -12,7 +12,12 @@ void coJestWZmiennych(){
 	cout << "*wskaznik: " << *wskaznik << endl;		//13
 }
 
-
+void zwracanieTablicy(int* wks, int ile){
+	for(int i = 0; i < ile; i++){
+		*(wks+i) = 2018;
+	}
+	// w tym momencie wszystkie miejsca są zaktualizowane
+}
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -33,6 +38,22 @@ int main() {
 		*wTab = 0;
 		tablica[3] = 0;
 		*(tablica+3) = 0;
+		
+		
+//	"Zwracanie tablicy"	
+	int tab2[10];
+	for(int i = 0; i < 10; i++){
+		tab2[i] = i;
+	}
+	for(int i = 0; i < 10; i++){
+		cout << tab2[i] << endl;
+	}
+	int *wsk;
+	wsk = tab2;
+	zwracanieTablicy(wsk, 10);
+	for(int i = 0; i < 10; i++){
+		cout << tab2[i] << endl;
+	}
 	
 	return 0;
 }

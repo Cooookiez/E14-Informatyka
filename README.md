@@ -13,8 +13,10 @@
             * [ ] dec2oct
     * [x] czas
     * [ ] garbate
-    * [ ] referencje
-    * [ ] wskaźniki
+    * [x] referencje (jest troche w wskaźnikach)
+    * [x] wskaźniki
+        * [x] zmienne
+        * [x] Zwracanie tablic
     * [ ] obiekty
     * [ ] sortowanie bąbelkowe
 
@@ -26,6 +28,7 @@
     * [Tablice](C++/Tablice.md)
     * [Tworzenie funkcji](C++/Tworzenie-funkcji.md)
     * [Operacje na plikach](C++/pliki/pliki.md)
+    * [Wskaźniki (zwrazanie tablic)](C++/wsk.md)
 
 * HTML + CSS
     * [Formularze](HTML/formularze.html)
