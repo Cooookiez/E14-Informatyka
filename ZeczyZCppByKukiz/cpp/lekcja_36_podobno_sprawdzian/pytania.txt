@@ -1,0 +1,12 @@
+grupa A/1
+
+1. Program ktury zapyta o liczbe,
+utworzy tablice o tylu elementach,
+i wype³ni tablice liczb¹ 13,
+wydrukuje j¹ oddzielaj¹c elementy 'x';
+
+2. Zapyta o wyraz,
+i wypisze go zmieniajac pierwsza i ostatnia litere na kropke;
+
+3. opisac pêtle do while;
+

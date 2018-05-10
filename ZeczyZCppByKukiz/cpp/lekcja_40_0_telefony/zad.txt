@@ -1,0 +1,11 @@
+System audio-tele zarejestrowa³ numery telefonów komórkowych osób, które telefonowa³y pod wskazany numer, aby otrzymaæ nagrodê. Wiele osób, licz¹c na zwiêkszenie prawdopodobieñstwa otrzymania wygranej, dzwoni³o wielokrotnie. W pliku tekstowym o nazwie telefony.txt znajduje siê 1000 zarejestrowanych numerów telefonów (po³¹czeñ), w tym tak¿e wielokrotnie zapisane numery telefonów osób, które bardzo chcia³y wygraæ. Ka¿dy numer telefonu umieszczony jest w jednym wierszu. Korzystaj¹c z danych umieszczonych w pliku telefony.txt, wykonaj polecenia a) – h).
+
+
+a) Ile razy telefonowano z numeru 504 669 045?
+b) Z którego numeru telefonowano najczêœciej i ile razy?
+c) Ile numerów telefonów pochodzi z grupy numeracyjnej rozpoczynaj¹cej siê od 511?
+d) I nagroda bêdzie losowana spoœród osób, w których numerze telefonu suma cyfr parzystych jest wiêksza od 42. Ile osób weŸmie udzia³ w losowaniu?
+e) II nagroda bêdzie losowana spoœród osób, w których numerze telefonu wystêpuj¹ przynajmniej cztery cyfry 1. Ile osób weŸmie udzia³ w losowaniu?
+f) III nagroda bêdzie losowana spoœród osób, w których numerze telefonu ostatni¹ cyfr¹ jest 2, a mediana wszystkich cyfr wchodz¹cych w sk³ad numeru telefonu jest liczb¹ podzieln¹ przez 3 bez reszty. Ile osób weŸmie udzia³ w losowaniu?
+g) Utwórz zestawienie zawieraj¹ce w pierwszej kolumnie numery telefonów, z których dzwoniono przynajmniej 2 razy, a w drugiej kolumnie odpowiadaj¹c¹ liczbê po³¹czeñ z tego numeru telefonu.
+h) Wykonaj wykres kolumnowy do zestawienia z punktu g. Pamiêtaj o prawid³owym i czytelnym opisie osi wykresu.

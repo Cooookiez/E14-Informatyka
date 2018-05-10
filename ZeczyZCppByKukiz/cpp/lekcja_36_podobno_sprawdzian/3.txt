@@ -1,0 +1,8 @@
+Pêtla do while wykona siê zawsze conajmniej jeden raz, i na koniec sprawdzi warunek czy ma siê wykonaæraz nastêpny.
+Pêtla wykonuje sie gdy w warunku jest wartosc rózna od 0/false.
+
+Przyk³ad pêtli do while, ktura wykona siê tylko raz
+
+do{
+	cout << "napis";
+}while(0);	//<- poniewaz wartosc false pêtal nie wykona siê ponownie
