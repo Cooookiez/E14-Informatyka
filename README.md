@@ -3,15 +3,15 @@
 # ToDo
 * C++
     * [x] odczyt / zapis do pliku
-    * [ ] funkcje
-        * [ ] zamiany liczbowe
+    * [x] funkcje
+        * [x] zamiany liczbowe
             * [x] bin2dec
             * [x] dec2bin
             * [x] hex2dec
             * [x] dec2hex
             * [x] oct2dec
             * [x] dec2oct
-            * [x] sortowanie bąbelkowe
+        * [x] sortowanie bąbelkowe
     * [x] czas
     * [ ] garbate
     * [x] referencje (jest troche w wskaźnikach)
