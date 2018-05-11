@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\bin\Debug\013_podegowanie.exe.config
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\bin\Debug\013_podegowanie.exe
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\bin\Debug\013_podegowanie.pdb
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\013_podegowanie.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\_013_podegowanie.Form1.resources
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\_013_podegowanie.Properties.Resources.resources
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\013_podegowanie.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\013_podegowanie.exe
+F:\Jacki\_VisualStudio\013_podegowanie\013_podegowanie\obj\Debug\013_podegowanie.pdb

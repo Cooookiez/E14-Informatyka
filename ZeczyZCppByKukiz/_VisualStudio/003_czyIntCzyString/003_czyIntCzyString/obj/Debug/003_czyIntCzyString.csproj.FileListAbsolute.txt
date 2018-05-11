@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\bin\Debug\003_czyIntCzyString.exe.config
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\bin\Debug\003_czyIntCzyString.exe
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\bin\Debug\003_czyIntCzyString.pdb
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\_003_czyIntCzyString.Form1.resources
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\_003_czyIntCzyString.Properties.Resources.resources
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\003_czyIntCzyString.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\003_czyIntCzyString.exe
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\003_czyIntCzyString.pdb
+F:\Jacki\_VisualStudio\003_czyIntCzyString\003_czyIntCzyString\obj\Debug\003_czyIntCzyString.csprojResolveAssemblyReference.cache

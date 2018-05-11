@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>jQ</title>
+	<script src="../jquery-1.12.2.min.js"></script><!--- jQuery --->
+	<style>
+		p
+		{
+			text-align: justify;
+			line-height: 140%;
+		}
+		.pokas
+		{
+			color:red;
+			font-weight: 900;
+			cursor: pointer;
+		}
+		#foto
+		{
+			position: fixed;
+			top: 0;
+			left: 0;
+		
+			min-height: 10px;
+			min-width: 10px;
+			
+			outline: 3px solid black;
+			display: none;
+			
+			box-shadow: 0 0 10px black;
+			overflow: hidden;
+		}
+		img{
+			max-width: 400px;
+		}
+	</style>
+	<script>
+		$(function(e){
+		
+			/*=== po najechaniu ma klase .pokas ===*/
+				$('.pokas').one('mouseover',function(e){
+					var xMouse = e.pageX;
+					var yMouse = e.pageY;
+					var imgName = $(this).attr('dada-src');
+					$('#foto').stop().css({'top':yMouse+30,'left':xMouse-60}).html('<img src="'+imgName+'">').slideDown();
+					
+				});
+				$('.pokas').mouseleave(function(){
+					//$('#foto').css({'display':'none'});
+					$('#foto').stop().slideUp('slow',function(){
+						$(this).html('');		
+					});
+				});
+				
+			$('#B_1').click(function(){
+			
+				$('.pokas').bind('mouseover',function(){
+					var xMouse = e.pageX;
+					var yMouse = e.pageY;
+					var imgName = $(this).attr('dada-src');
+					$('#foto').stop().css({'top':yMouse+30,'left':xMouse-60}).html('<img src="'+imgName+'">').slideDown();
+				});
+				
+			});
+			
+		});//end jQuery
+	</script>
+</head>
+<body>
+
+		<p>nawet jeśli ambicja każe ci to <span class="pokas" dada-src="czytac.jpg">czytać</span> bo sprowokowałem ją tytułem to sobie daruj, zwykle czytasz krótkie informacje a ta będzie długa, nudna i wymagająca myślenia, myślenie zaś boli wiec może porzuć dumę i sie nie przemęczaj
+
+nie dodam w tym tekscie żadnego kolorowego obrazka po to by zwrócił uwagę kogokolwiek, nie będzie krótkim fotoblogowym wpisem co to się rzuca w oczy i można zaraz o nim zapomniec a główka jak była pusta tak jest
+
+dziś znalazłem demota z wypowiedzia Lema, coś w stylu że dopóki nie zaczał siedziec w <span class="pokas" dada-src="sieci.jpeg">sieci </span>nie przypuszczał ilu idiotów jest na świecie, świeta prawda jesli się patrzy lub czytac cos z tekstów nowoczesnej młodzieży, w tym środowisku króluje bezmyślnośc, tępota umysłowa, powtarzanie bezrefleksyjne i frazes, w dodatku nikt nawet nie postara się wpisać czegokolwiek w wikipedie by sprawdzić czy to na pewno racja</p>
+
+	<div id="foto"><img src="czytac.jpg"></div>
+	<button id="B_1">dd</button>
+</body>
+</html>

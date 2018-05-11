@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQ</title>
+        <script src="../jquery-1.12.2.min.js"></script>
+		<style>
+			#body{
+				
+			}
+			#ramka{
+			
+				width: calc(100% - 10px*2 - 5px*2);
+				height: 100%;
+				padding: 10px;
+				margin-bottom: 10px;
+				
+				background-color: yellow;
+				border: solid 5px darkgreen;
+				
+			}
+			button{
+				margin: 5px;
+			}
+		</style>
+		<script>
+			$(function(){
+				$('#but1').click(function(){// na kliknieciu buttona 1
+					$('p:first').css('color','red');
+				});//koniec klikniecia
+				
+				$('#but2').mouseenter(function(){// na najehani misza
+					$('p:last').css('color','red');// zmienia kolor po najechaniu
+					$('#but2').mouseleave(function(){
+						$('p:last').css('color','black');// zmienia kolor po najechaniu
+					});
+				});//koniec najechania
+				
+				$('#but3').dblclick(function(){
+					$('p:odd').css('color','green');// zmienia kolor po podwujnym
+					$('p:even').css('color','red');// zmienia kolor po podwujnym
+				});
+				
+				$('#but4').click(function(){
+					var size = parseInt($('p:first').css('font-size'));
+					size += 2;
+					$('p').css('font-size',size + 'px');
+				});
+				
+				$('#but5').click(function(){
+					var size = parseInt($('p:first').css('font-size'));
+					size -= 2;
+					$('p').css('font-size',size + 'px');
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<button id="but1">#1</button>
+		<button id="but2">#2</button>
+		<button id="but3">#3</button>
+		<button id="but4">+</button>
+		<button id="but5">-</button>
+		<div id="ramka">
+			<p id="aka1">Akapit nr 1</p>
+			<p id="aka2">Akapit nr 2</p>
+			<p id="aka3">Akapit nr 3</p>
+			<p id="aka4">Akapit nr 4</p>
+		</div>
+	</body>
+</html>

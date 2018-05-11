@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\bin\Debug\013_LosowanieLiczb.exe.config
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\bin\Debug\013_LosowanieLiczb.exe
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\bin\Debug\013_LosowanieLiczb.pdb
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\013_LosowanieLiczb.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\_013_LosowanieLiczb.Form1.resources
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\_013_LosowanieLiczb.Properties.Resources.resources
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\013_LosowanieLiczb.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\013_LosowanieLiczb.exe
+F:\Jacki\_VisualStudio\013_LosowanieLiczb\013_LosowanieLiczb\obj\Debug\013_LosowanieLiczb.pdb

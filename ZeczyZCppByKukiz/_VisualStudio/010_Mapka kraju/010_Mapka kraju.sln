@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Mapka kraju", "010_Mapka kraju\010_Mapka kraju.csproj", "{ACBF24FF-196B-40B8-855F-2756064CA49D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACBF24FF-196B-40B8-855F-2756064CA49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBF24FF-196B-40B8-855F-2756064CA49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBF24FF-196B-40B8-855F-2756064CA49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBF24FF-196B-40B8-855F-2756064CA49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

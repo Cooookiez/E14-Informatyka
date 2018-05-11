@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\bin\Debug\018_zdarzenia.exe.config
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\bin\Debug\018_zdarzenia.exe
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\bin\Debug\018_zdarzenia.pdb
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\018_zdarzenia.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\_018_zdarzenia.Properties.Resources.resources
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\018_zdarzenia.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\018_zdarzenia.exe
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\018_zdarzenia.pdb
+F:\Jacki\_VisualStudio\018_zdarzenia\018_zdarzenia\obj\Debug\_018_zdarzenia.MainWindow.resources

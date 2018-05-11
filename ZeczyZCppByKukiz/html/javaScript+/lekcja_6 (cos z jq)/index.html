@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQ</title>
+        <script src="../jquery-1.12.2.min.js"></script>
+		<style>
+			body{
+				background-color: grey;
+			}
+		</style>
+		<script>
+			$(function(){
+				$('h1').click(function(){
+					$(this).css('color','red');
+					$(this).css('text-shadow','0 0 10px black');
+				});	//h1.click end
+				$('h1').click(function(){
+					$('p').fadeToggle()
+				})
+				
+				$('h2').click(function(){
+					//$('p').css('color','lightblue').css('font-weight','bold');
+					$('p').css({'color':'lightblue','font-weight':'bold'})
+				});	//h2.click end
+				$('h2').dblclick(function(){
+					$('p').slideDown(400);
+				}); //h2.dbclick
+				
+				$('p').mouseenter(function(){
+					$(this).css('color','darkgreen');
+				})// on mouse over p
+				.mouseleave(function(){
+					$(this).css('color','black');
+				})// on mouse out p
+				.click(function(){
+					$(this).slideUp(400)
+				});// on clikc p
+			})
+		</script>
+	</head>
+
+	<body>
+    	<div id="box">
+			<h1>akapit#1</h1>
+			<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+			
+			<h2>toratora</h2>
+			
+			<h1>akapit#2</h1>
+			<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi
+			
+			<h2>boku no piko</h2>
+        </div>
+	</body>
+</html>

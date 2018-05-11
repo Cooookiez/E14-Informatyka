@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\bin\Debug\012_tablice.exe.config
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\bin\Debug\012_tablice.exe
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\bin\Debug\012_tablice.pdb
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\012_tablice.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\_012_tablice.Form1.resources
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\_012_tablice.Properties.Resources.resources
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\012_tablice.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\012_tablice.exe
+F:\Jacki\_VisualStudio\012_tablice\012_tablice\obj\Debug\012_tablice.pdb

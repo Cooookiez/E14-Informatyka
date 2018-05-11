@@ -1,0 +1,17 @@
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\bin\Debug\Ulamki.exe.config
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\bin\Debug\Ulamki.exe
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\bin\Debug\Ulamki.pdb
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\obj\Debug\Ulamki.Properties.Resources.resources
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\obj\Debug\Ulamki.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\obj\Debug\Ulamki.exe
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\obj\Debug\Ulamki.pdb
+F:\Jacki\_VisualStudio\001_\Ulamki\Ulamki\obj\Debug\Ulamki.Form1.resources
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\bin\Debug\Ulamki.exe.config
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.exe
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.pdb
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.Form1.resources
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.Properties.Resources.resources
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\obj\Debug\Ulamki.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\bin\Debug\Ulamki.exe
+F:\Jacki\_VisualStudio\002_Ulamki\Ulamki\bin\Debug\Ulamki.pdb

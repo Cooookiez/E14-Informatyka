@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\bin\Debug\015_richTextBox_losowanie.exe.config
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\bin\Debug\015_richTextBox_losowanie.exe
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\bin\Debug\015_richTextBox_losowanie.pdb
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\015_richTextBox_losowanie.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\_015_richTextBox_losowanie.Form1.resources
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\_015_richTextBox_losowanie.Properties.Resources.resources
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\015_richTextBox_losowanie.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\015_richTextBox_losowanie.exe
+F:\Jacki\_VisualStudio\015_richTextBox_losowanie\015_richTextBox_losowanie\obj\Debug\015_richTextBox_losowanie.pdb

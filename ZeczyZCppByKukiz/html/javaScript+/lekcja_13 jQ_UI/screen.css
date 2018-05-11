@@ -1,0 +1,16 @@
+body{
+	background-color: lightgrey;
+	font-size: 1.2em;
+}
+
+#sortable{
+	list-style-type: none;
+	text-align: center;
+}
+#sortable li{
+	width: 100px;
+	padding: 8px;
+
+	cursor: pointer;
+	color: black;
+}

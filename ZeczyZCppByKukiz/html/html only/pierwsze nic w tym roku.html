@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="uft-8">
+		<meta name="Keywords" content="wzór,strona,html,css">
+		<meta name="Description" content="to jest wzór strony w html/css">
+		<meta name="Author" content="kkukiz">
+		<style>
+			html, body{
+				margin: 5% auto;
+				width: 500px;
+				height: auto;
+				background-color: #402B1D;
+				color: white;
+				text-shadow: 0 0 6px black;
+				font-size: 120%;
+			}
+			legend{
+				background-color: #362822;
+				border: 1px solid #000;
+				padding: 5px 20px;
+			}
+			fieldset{
+				border: 1px solid #000;
+				padding: 10px;
+			}
+			input, textarea{
+				background-color: #362822;
+				border: 1px solid black;
+				border-radius: 10px;
+				padding: 5px;
+				color: white;
+			}
+			textarea{
+				margin: 10px 0;
+			}
+		</style>
+		<title>m ( _  _ ) m</title>
+	</head>
+
+	<body>
+		<form>
+			<fieldset><legend>Ankiea</legend>
+		 		<p>
+					<span>
+						<label for="imie">Imie</label>
+						<input type="text" name="imie" id="imie">
+					</span>
+					<span>
+						<label for="nazwisko">Nazwisko</label>
+						<input type="text" name="nazwisko" id="nazwisko">
+					</span>
+				</p>
+				<p>
+					<label>Miejce zamieszkania</label>
+					<input type="radio" name="m_mieszkania" id="m_mieszkania" value="miasto" checked>
+					<label for="m_mieszkania">Miasto</label>
+					<input type="radio" name="m_mieszkania" id="m_mieszkania" value="wies">
+					<label for="m_mieszkania">Wie¶</label>
+				</p>
+				<p>
+					<label>ulubione kolory</label>
+					<br>
+					<input type="checkbox" name="kolor" id="kolor" value="czerowny">
+					<label for="czerwony" style="color: red">czerwoy</label>
+					<input type="checkbox" name="kolor" id="kolor" value="niebieski">
+					<label for="czerwony" style="color: #5C8BD4">niebieski</label>
+					<input type="checkbox" name="kolor" id="kolor" value="zielony">
+					<label for="zielony" style="color: green">zielony</label>
+					<input type="checkbox" name="kolor" id="kolor" value="inne">
+					<label for="inne">inne</label>
+				</p>
+				<p>
+					<label for="opinia">opinia</label>
+					<br>
+					<textarea rows="10" cols="70"></textarea>
+				</p>
+				<p style="text-align: right;">
+					<input type="submit" name="wyslij" value="wylijs">
+					<input type="reset">
+				</p>
+			</fieldset>
+		</form>
+	</body>
+</html>

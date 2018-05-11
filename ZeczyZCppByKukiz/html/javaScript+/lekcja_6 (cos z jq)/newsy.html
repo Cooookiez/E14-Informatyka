@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQ</title>
+        <script src="../jquery-1.12.2.min.js"></script>
+		<style>
+			body{
+				background-color: grey;
+			}
+			h1{
+				background-color: pink;
+				padding: 5px 15px;cursor: pointer;
+			}
+			div{
+				background-color: darkgreen;
+			}
+		</style>
+		<script>
+			$(function(){
+				//ukrywa wszystkie p tak na dzien dobry
+				$('div').hide();
+				
+				//pokazuje/ukrywa p
+				$('h1').click(function(){
+					$(this).next().fadeToggle();
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+			
+			<h1>News#1</h1>
+			<div>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+			</div>
+			
+			
+			<h1>News#2</h1>
+			<div>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+			</div>
+			
+			<h1>News#3</h1>
+			<div>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+				<p>lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi lubie placki z miodem i warzywa,my bilogicznymi zwiżzanymi strikte z ekologią bo weganie są źli brdziej troszcząc się o rzwierzęta, niż innych ludzi </p>
+			</div>
+	</body>
+</html>

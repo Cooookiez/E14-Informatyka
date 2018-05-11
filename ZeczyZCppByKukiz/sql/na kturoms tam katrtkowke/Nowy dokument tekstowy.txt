@@ -1,0 +1,79 @@
+​
+show databases; - informuje do jakich baz danych mam dostęp
+Use test; - przełączenie sie do bazy.
+Baza > tabela > rekord > atrybut(pole)
+Show tables; pokazuje jakie tabele.
+Create table znajomi () - tworzy tabele znajomi
+​
+alter table znajomi ADD e_mail varchar(30)[*1]; dodaje rekord
+Describe znajomi - pokazuje rekord
+Change email mail varchar(30)
+Modify mail varchar(50)k
+DROP COLUMNS miejscowosc.
+Rename kontakty
+DROP table filmy
+​
+Select max(yr)/min()/avg(średnia)/count(ile)/sum(suma) from nobel
+Distinct() - bez powtórzeń
+Where rekord in('', '', '');
+Wher yr between 11 and 15;
+Order by [] desc/asc;
+Select distinct nazwa ... - bez pogwtórzeń.
+Select * from tabela where cos like '_%'
+Select * from tabela limit 5
+Ubtade tabela set pole = wartość where od = 5;
+Delete from tabela where id=3;
+Where month()/year()
+Is null - inaczej nie da sie nulla sprawdzić
+Where cos in('', '',)​
+-----------------------
+[*1] po tym after <rekord>, first
+Inset into <tabela> values(0, 'cos')
+​========================
+Tabela [outer/Inner/natural/..] join tabela2 [using(to samo pole)]
+Left outer join -
+Right outer join -
+Tabela jojn tabela2 on uprac.id = użerał.zesp
+
+​
+-group by, having::..
+Create (or replace) view nazwa as select ...
+alter view nazwa as select ...
+DROP view nazwa ...
+Funkcje
+1. Tekstowe
+Concat(...) - łączy znaki
+Concat_ws("znak", ...) - to samo oddzielane znakiem
+Lower()/upper() - duże/małe znaki
+Left(zmienna, ile) od lewej ile znaków w zmiennej
+Right() - to samo
+Trim, ltrim, rtrim() - l tylko z początku, r tylko z prawej, wszystkie spaceje
+Replace(tekst, co, na co) - przeszukuje wyraz i zamienia
+Reverse() - zamienia na odwrotność.
+Substring(pole, od litery, ile) - wycina zanki liczy od zera
+Length() - ile znaków ma wyraz
+Instr(tekst, co) - szuka znaku
+2. Liczbowe
+Round(liczba, ile miejsc) - zaokrągla do ile miejsc po psecinku. Brak limitów co to najmniejsze największe.
+Truncate(liczba, ile) - obcina odpowiednio ile miejsc
+Abs - pozbywa sie znaku +-
+Pow - do podenki jak w cpp
+Mod() - modulo, reszta z dzielenia
+Sqrt() - do pierwiastkowanie
+3. Data i cza
+Curdate() - aktualna data
+Curtime() - aktualna godzina
+Now() - laczy dwie powyższe
+Dayof[month/week/year]()
+Day/month/year/hour/minute/second()
+4. Szyfry
+Encode() - szyfruje
+Decote() - deszyfruje
+sha1() -szyfruje bez odkodywania
+password() -szyfruje bez odkodywania
+Podzapytania
+Any
+All
+Exist
+Union
+Case

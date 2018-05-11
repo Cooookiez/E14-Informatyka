@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\bin\Debug\spr_na_6.exe.config
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\bin\Debug\spr_na_6.exe
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\bin\Debug\spr_na_6.pdb
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.Form1.resources
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.Properties.Resources.resources
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.exe
+F:\Jacki\_VisualStudio\spr_na_6\spr_na_6\obj\Debug\spr_na_6.pdb

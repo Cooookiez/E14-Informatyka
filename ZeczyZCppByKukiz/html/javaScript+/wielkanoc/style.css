@@ -1,0 +1,82 @@
+html, body
+{
+	background-color: #99B57C;
+}
+#box
+{
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 800px/2-10px*2);
+	height: 500px;
+	width:800px;
+	border: 10px solid #22291C;
+	
+	cursor: none;
+	background-color: #2B3323;
+}
+/*--- napisy ¿yczenia ---*/
+#napisy
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#logo_1
+{
+	position: absolute;
+	top: 50px;
+	left: 235px;
+	height:80%;
+}
+#logo_2
+{
+	opacity: 0;
+	position: absolute;
+	top: 50px;
+	left: 170px;
+	height:80%;
+}
+.zyczeniaBox
+{
+	position: absolute;
+	top: 50px;
+	left: 235px;
+	height: auto;
+	width: 300px;
+	padding: 0 15px;
+	
+	border: 3px solid #637550;
+	border-radius: 10px;
+	background-color: #748A5E;
+	
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+#zyczenia_1
+{
+	overflow: hidden;
+	font-size: 30px;
+	bold: 900;
+	opacity: 0;
+}
+/*--- rysunki / tlo / reszta kartki ---*/
+#kartka
+{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#zajacSkacz
+{
+	position: absolute;
+	bottom: 0;
+	left: -500px;;
+	height: 250px;
+}

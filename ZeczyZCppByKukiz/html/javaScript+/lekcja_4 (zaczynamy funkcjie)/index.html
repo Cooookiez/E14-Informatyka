@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>funkcje</title>
+		<script>
+			
+			window.onload = rob_czas;
+			function rob_czas()
+			{
+				var d = new Date();
+				var dzien_tyg = d.getDay();
+				switch(dzien_tyg)
+				{
+					case 0:
+						dzien_tyg = 'niedziela';
+						break;
+					case 1:
+						dzien_tyg = 'poniedzialek';
+						break;
+					case 2:
+						dzien_tyg = 'wtorek';
+						break;
+					case 3:
+						dzien_tyg = 'sroda';
+						break;
+					case 4:
+						dzien_tyg = 'czwartek';
+						break;
+					case 5:
+						dzien_tyg = 'piatek';
+						break;
+					case 6:
+						dzien_tyg = 'sobota';
+						break;
+				}
+				
+				var s = d.getSeconds();
+				var min = d.getMinutes();
+				var h = d.getHours();
+				
+				if (h < 10)
+					h = '0' + h;
+				if (s < 10)
+					s = '0' + s;
+				if (min < 10)
+					min = '0' + min;
+			
+				var kod_html = '(' + dzien_tyg + ') ' + h + ':' + min + '.' + s;
+				document.getElementById('czas').style.color = 'white';
+				document.getElementById('czas').innerHTML = kod_html;
+				
+				if (s%2 == 0)
+					document.getElementById('czas').style.backgroundColor = 'red';
+				else
+					document.getElementById('czas').style.backgroundColor = 'blue';
+				setTimeout(rob_czas(), 1000);
+			}
+			
+			
+		</script>
+	</head>
+	<body>
+		<div id="czas"></div>
+	</body>
+</html>

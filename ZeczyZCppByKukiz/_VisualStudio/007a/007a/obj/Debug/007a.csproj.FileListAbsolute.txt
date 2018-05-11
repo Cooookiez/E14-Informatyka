@@ -1,0 +1,13 @@
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\bin\Debug\007a.exe.config
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\bin\Debug\007a.exe
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\bin\Debug\007a.pdb
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\bin\Debug\pl-PL\007a.resources.dll
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\007a.csprojResolveAssemblyReference.cache
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\_007a.Form1.resources
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\_007a.Properties.Resources.resources
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\_007a.Form1.pl-PL.resources
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\007a.csproj.GenerateResource.Cache
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\007a.csproj.CoreCompileInputs.cache
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\pl-PL\007a.resources.dll
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\007a.exe
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\007a\007a\obj\Debug\007a.pdb

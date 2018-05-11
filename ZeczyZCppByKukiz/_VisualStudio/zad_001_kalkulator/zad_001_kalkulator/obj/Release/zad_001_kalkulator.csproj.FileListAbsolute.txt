@@ -1,0 +1,4 @@
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\zad_001_kalkulator\zad_001_kalkulator\obj\Release\zad_001_kalkulator.Form1.resources
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\zad_001_kalkulator\zad_001_kalkulator\obj\Release\zad_001_kalkulator.Properties.Resources.resources
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\zad_001_kalkulator\zad_001_kalkulator\obj\Release\zad_001_kalkulator.csproj.GenerateResource.Cache
+H:\OneDrive\_99__kodowanie\_SZKOŁA\_VisualStudio\zad_001_kalkulator\zad_001_kalkulator\obj\Release\zad_001_kalkulator.csproj.CoreCompileInputs.cache

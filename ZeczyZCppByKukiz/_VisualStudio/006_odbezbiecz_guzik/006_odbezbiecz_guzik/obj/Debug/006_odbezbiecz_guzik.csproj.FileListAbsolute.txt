@@ -1,0 +1,8 @@
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\bin\Debug\006_odbezbiecz_guzik.exe.config
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\bin\Debug\006_odbezbiecz_guzik.exe
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\bin\Debug\006_odbezbiecz_guzik.pdb
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\obj\Debug\_006_odbezbiecz_guzik.Form1.resources
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\obj\Debug\_006_odbezbiecz_guzik.Properties.Resources.resources
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\obj\Debug\006_odbezbiecz_guzik.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\obj\Debug\006_odbezbiecz_guzik.exe
+F:\Jacki\_VisualStudio\006_odbezbiecz_guzik\006_odbezbiecz_guzik\obj\Debug\006_odbezbiecz_guzik.pdb

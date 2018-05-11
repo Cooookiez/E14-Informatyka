@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\bin\Debug\014_richTextBox.exe.config
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\bin\Debug\014_richTextBox.exe
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\bin\Debug\014_richTextBox.pdb
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\014_richTextBox.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\_014_richTextBox.Form1.resources
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\_014_richTextBox.Properties.Resources.resources
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\014_richTextBox.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\014_richTextBox.exe
+F:\Jacki\_VisualStudio\014_richTextBox\014_richTextBox\obj\Debug\014_richTextBox.pdb

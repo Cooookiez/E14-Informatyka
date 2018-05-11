@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Keywords" content="wzór,strona,html,css">
+		<meta name="Description" content="to jest wzór strony w html/css">
+		<meta name="Author" content="kkukiz">
+		<title>scrypty?</title>
+		<script>
+			window.onload = napisz;
+			function napisz()
+			{/*
+				for (i = 0; i<10; i++)
+				{
+					var red = Math.floor(Math.random()*256);
+					var green = Math.floor(Math.random()*256);
+					var blue = Math.floor(Math.random()*256);
+					var kod_html = '<span style="color: rgb(' + red + ', ' + green + ', '+ blue + ')">ZS nr 2</span><br>'
+					document.write(kod_html);
+				}*/
+				
+				var a = prompt("liczba 1 :", "tu je wpisz");
+				a = parseInt(a);
+				var b = prompt("liczba 2 :", "tu je wpisz");
+				b = parseInt(b);
+				var wynik = a+b;
+				var kod_html = a + '+' + b + '=' + wynik;
+				document.write(kod_html);
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="box">
+		
+		</div>
+	</body>
+</html>

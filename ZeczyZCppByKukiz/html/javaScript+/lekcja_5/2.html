@@ -1,0 +1,58 @@
+﻿<!DOCTYPE>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>niewiadomecos</title>
+		<script>
+		
+		var ile_losow = 0;
+		var losy= [];
+		var wylosowane = [];
+		
+		function los()
+		{
+			losy[ile_losow] = Math.floor(document.getElementById('ile_los').value);
+			
+			
+			for (i = 0; i < losy[ile_losow]; i++)
+			{
+				wylosowane[ile_losow][i] = Math.floor(Math.random()*1001);
+			}
+			
+			ile_losow++;
+		}
+		
+		function pokaz()
+		{
+			var kod_html = '';
+			for (i = 0; i < ile_losow; i++)
+			{
+				kod_html += '<fieldset><legend>' + losy[i] + ' losow</legend>';
+				for (j = 0; j < losy[i]; j++)
+				{
+					kod_html += wylosowane[i][j] + ', ';
+				}
+				kod_html += '</fieldset>'
+			}
+			document.getelementById('wylosy').innerHTML = kod_html;
+		}
+		
+		
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<fieldset><legend>ilość losów</legend>
+				<input id="ile_los" type="number" style="float: left;'" placeholder="Iloeść losów" autofocus>
+				<input id="zapisz" type="submit" style="float: right;'" value="Wylosuj" onclick="los()">
+				<div style="clear:both"></div>
+				<input id="pokaz" type="submit" style="float: right; margin-top: 5px;'" value="pokaz" onclick="pokaz()">
+			</fieldset>
+			
+			<fieldset><legend>konsola</legend>
+				<div id="wylosy"></div>
+			</fieldset>
+			
+		</div>
+	</body>
+</html>

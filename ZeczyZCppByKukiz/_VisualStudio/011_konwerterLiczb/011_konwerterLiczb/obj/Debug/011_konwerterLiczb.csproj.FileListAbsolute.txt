@@ -1,0 +1,9 @@
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\bin\Debug\011_konwerterLiczb.exe.config
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\bin\Debug\011_konwerterLiczb.exe
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\bin\Debug\011_konwerterLiczb.pdb
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\011_konwerterLiczb.csprojResolveAssemblyReference.cache
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\_011_konwerterLiczb.Form1.resources
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\_011_konwerterLiczb.Properties.Resources.resources
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\011_konwerterLiczb.csproj.GenerateResource.Cache
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\011_konwerterLiczb.exe
+F:\Jacki\_VisualStudio\011_konwerterLiczb\011_konwerterLiczb\obj\Debug\011_konwerterLiczb.pdb

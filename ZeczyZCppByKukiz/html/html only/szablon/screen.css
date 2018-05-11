@@ -1,0 +1,78 @@
+    article, aside, footer, header, nav, section {
+                     display: block;
+            }
+    body {
+     	color: black;
+     	font-family: tahoma, verdana;
+     	font-size: 10pt;
+     	line-height: 140%;
+     	background-color: #FFF0D4;
+     	}
+     #top {
+     	margin: 0 auto;
+        width: 1000px;
+        background-color: #f2ebdb;
+		border: 1px solid red;
+      }
+    #logo {
+     	border: 1px solid blue;
+        padding: 0;
+        height: 175px;
+		text-align: right;
+		padding-right: 10px;
+     }
+    #menu {
+       	border-left: 4px solid #593b39;
+       	border-right: 4px solid #593b39;
+        padding: 10px;
+        width: 155px;
+        float: left;
+        overflow: hidden;
+        background-color: #d8c6b0;
+      	text-align: left;
+    }
+    #tresc {
+        width: 700px;
+	   	border-right: 4px solid #593b39;
+       	border-left: 4px solid #593b39;
+		float: left;
+    }
+    #boczek {
+	   	border-right: 4px solid #593b39;
+        padding: 5px;
+        width: 95px;
+            text-align: center;
+            overflow: hidden;
+            background-color: #d8c6b0;
+     		border-bottom: 1px solid #593b39;
+	
+      }
+
+     #stopka {
+        padding: 10px;
+        border-top: 1px solid #593b39;
+        clear: both;
+
+        background-color: #d8c6b0;
+     	  text-align: center;
+     }
+     .sec_art {
+     	padding: 10px;
+		text-align: justify;
+     }
+     .head_art   {
+     	background-color: #ddc692;
+     }
+     .head_art h1 {
+     	color: #501900;
+     	text-align: left;
+     	padding: 5px;
+     	font-size: 12pt;
+     }
+     .foot_art {
+     	padding: 5px;
+     	text-align: right;
+     	font-style: italic;
+     	font-size: 8pt;
+     	color: gray;
+     }

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>niewiadomecos</title>
+		<script>
+		
+		var ile = 0;
+		var liczba = [];
+		var czas = [];
+		var minuta = [];
+		
+		function zapisz()
+		{
+			liczba[ile] = document.getElementById('numer').value;
+			var teraz = new Date();
+			var godz = teraz.getHours();
+			var min = teraz.getMinutes();
+			var sec = teraz.getSeconds();
+			czas[ile] =  godz + ' : ' + min + ' : ' + sec;
+			minuta[ile] = min;
+			ile++;
+		}
+		
+		function pokaz()
+		{
+			var liczby = '';
+			for (i = 0; i < ile; i++)
+			{
+				liczby += '<span style="font-weight: 900;">' + liczba[i] + '</span>' + '&#9; <span style="color: #999;">' + czas[i] + '</span>' + '<br>';
+			}
+			
+			document.getElementById('wypis').innerHTML = liczby;
+		}
+		
+		function czysc()
+		{
+			document.getElementById('wypis').innerHTML = '';
+			ile = 0;
+		}
+		
+		function pokaz_w_czasie()
+		{
+			var kod_html = '';
+			for (i = 0; i < ile; i++)
+			{
+				if(minuta[i] != minuta[i-1])
+					kod_html += '<h1>' + minuta[i] + ' minut </h1>';
+				
+				kod_html += '<span style="font-weight: 900;">' + liczba[i] + '</span>' + '<br>';
+			}
+			document.getElementById('wypis_w_czsie').innerHTML = kod_html;
+		}
+		
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<fieldset><legend>liczba</legend>
+				<input id="numer" type="number" style="float: left;'" placeholder="twoja liczba" autofocus>
+				<input id="zapisz" type="submit" style="float: right;'" value="zapisz" onclick="zapisz()">
+				<div style="clear:both"></div>
+				<input id="pokaz" type="submit" style="float: right; margin-top: 5px;'" value="pokaz" onclick="pokaz()">
+			</fieldset>
+			
+			<fieldset><legend>konsola</legend>
+				<div id="wypis" style="float: left;'"></div>
+				<input id="czysc" type="submit" style="float: right;'" value="czysc" onclick="czysc()">
+			</fieldset>
+			
+			<fieldset><legend>liczby w czasie</legend>
+				<div id="wypis_w_czsie" style="float: left;'"></div>
+				<input id="pokaz_w_czasie" type="submit" style="float: right;'" value="pokaz w czasie" onclick="pokaz_w_czasie()">
+			</fieldset>
+		</div>
+	</body>
+</html>
